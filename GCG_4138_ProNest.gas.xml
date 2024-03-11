@@ -1,0 +1,2580 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SyntaxEdit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SearchOptions>EntireScope FindTextAtCursor FindSelectedText CycledSearch</SearchOptions>
+  <BorderStyle>None</BorderStyle>
+  <Pages>
+    <DefaultPage>
+      <Header>
+        <Offset>
+          <X>0</X>
+          <Y>0</Y>
+        </Offset>
+      </Header>
+      <Footer>
+        <Offset>
+          <X>0</X>
+          <Y>0</Y>
+        </Offset>
+      </Footer>
+      <PageSize>
+        <Width>0</Width>
+        <Height>0</Height>
+      </PageSize>
+    </DefaultPage>
+  </Pages>
+  <DisplayStrings />
+  <Selection>
+    <SelectionRect>
+      <Location>
+        <X>0</X>
+        <Y>1915</Y>
+      </Location>
+      <Size>
+        <Width>24</Width>
+        <Height>2</Height>
+      </Size>
+      <X>0</X>
+      <Y>1915</Y>
+      <Width>24</Width>
+      <Height>2</Height>
+    </SelectionRect>
+    <Options>UseColors OverwriteBlocks SelectLineOnTripleClick CopyLineWhenEmpty SelectWordOnCtrlClick</Options>
+  </Selection>
+  <Gutter>
+    <LineNumbersForeColor>WindowText</LineNumbersForeColor>
+    <Options>PaintLineNumbers PaintBookMarks PaintLineModificators</Options>
+  </Gutter>
+  <Margin>
+    <Visible>false</Visible>
+  </Margin>
+  <LineStyles />
+  <LineSeparator />
+  <Printing>
+    <Footer>
+      <Offset>
+        <X>0</X>
+        <Y>0</Y>
+      </Offset>
+    </Footer>
+    <Header>
+      <Offset>
+        <X>0</X>
+        <Y>0</Y>
+      </Offset>
+    </Header>
+  </Printing>
+  <WhiteSpace />
+  <TextSource>
+    <Position>
+      <X>0</X>
+      <Y>1915</Y>
+    </Position>
+    <Lexer>
+      <Scheme>
+        <Author>Quantum Whale, LLC.</Author>
+        <Copyright>Copyright (c) 2004 - 2014 Quantum Whale LLC.</Copyright>
+        <FileType>gas</FileType>
+        <Version>1.5</Version>
+        <Styles>
+          <Style>
+            <Name>idents</Name>
+            <ForeColor>ControlText</ForeColor>
+          </Style>
+          <Style>
+            <Name>numbers</Name>
+            <ForeColor>ControlText</ForeColor>
+          </Style>
+          <Style>
+            <Name>reswords</Name>
+            <ForeColor>Blue</ForeColor>
+          </Style>
+          <Style>
+            <Name>comments</Name>
+            <ForeColor>Green</ForeColor>
+            <PlainText>true</PlainText>
+          </Style>
+          <Style>
+            <Name>xmlcomments</Name>
+            <ForeColor>Gray</ForeColor>
+          </Style>
+          <Style>
+            <Name>symbols</Name>
+            <ForeColor>WindowText</ForeColor>
+          </Style>
+          <Style>
+            <Name>whitespace</Name>
+            <ForeColor>WindowText</ForeColor>
+          </Style>
+          <Style>
+            <Name>strings</Name>
+            <ForeColor>Maroon</ForeColor>
+            <PlainText>true</PlainText>
+          </Style>
+          <Style>
+            <Name>directives</Name>
+            <ForeColor>Blue</ForeColor>
+          </Style>
+          <Style>
+            <Name>htmlparams</Name>
+            <ForeColor>Red</ForeColor>
+          </Style>
+          <Style>
+            <Name>syntax errors</Name>
+            <ForeColor>Red</ForeColor>
+          </Style>
+          <Style>
+            <Name>codes nippets</Name>
+            <ForeColor>Black</ForeColor>
+            <BackColor>255:180:228:180</BackColor>
+          </Style>
+          <Style>
+            <Name>GabReservedWords</Name>
+            <ForeColor>Blue</ForeColor>
+          </Style>
+          <Style>
+            <Name>GabTokenWithBrackets</Name>
+            <ForeColor>Gray</ForeColor>
+          </Style>
+          <Style>
+            <Name>GabFunctionIntrinsicDebug</Name>
+            <ForeColor>White</ForeColor>
+            <BackColor>Red</BackColor>
+            <FontStyle>Bold</FontStyle>
+            <PlainText>true</PlainText>
+          </Style>
+          <Style>
+            <Name>GabVariable</Name>
+            <ForeColor>Teal</ForeColor>
+          </Style>
+          <Style>
+            <Name>GabVariableSystemDefined</Name>
+            <ForeColor>Teal</ForeColor>
+            <FontStyle>Bold Italic</FontStyle>
+          </Style>
+          <Style>
+            <Name>GabGui</Name>
+            <ForeColor>OrangeRed</ForeColor>
+          </Style>
+          <Style>
+            <Name>GabProgramSubStartEnd</Name>
+            <ForeColor>Black</ForeColor>
+            <BackColor>LightGray</BackColor>
+            <FontStyle>Bold</FontStyle>
+            <PlainText>true</PlainText>
+          </Style>
+        </Styles>
+      </Scheme>
+    </Lexer>
+    <TextStrings>
+      <Lines>
+        <string>Program.Sub.ScreenSU.Start</string>
+        <string>Gui.Form1..create</string>
+        <string>Gui.Form1..caption("ProNest File Selection")</string>
+        <string>Gui.Form1..size(5235,2040)</string>
+        <string>Gui.Form1..minx(0)</string>
+        <string>Gui.Form1..miny(0)</string>
+        <string>Gui.Form1..position(0,0)</string>
+        <string>Gui.Form1..event(UnLoad,Unload)</string>
+        <string>Gui.Form1..alwaysontop(False)</string>
+        <string>Gui.Form1..fontname("Arial")</string>
+        <string>Gui.Form1..fontsize(8)</string>
+        <string>Gui.Form1..forecolor(0)</string>
+        <string>Gui.Form1..BackColor(-2147483633)</string>
+        <string>Gui.Form1..controlbox(True)</string>
+        <string>Gui.Form1..maxbutton(False)</string>
+        <string>Gui.Form1..minbutton(False)</string>
+        <string>Gui.Form1..mousepointer(0)</string>
+        <string>Gui.Form1..moveable(True)</string>
+        <string>Gui.Form1..sizeable(False)</string>
+        <string>Gui.Form1..ShowInTaskBar(True)</string>
+        <string>Gui.Form1..titlebar(True)</string>
+        <string>Gui.Form1.lblFile.create(label,"ProNest File",True,1935,255,1,200,200,True,0,Arial,8,-2147483633,0)</string>
+        <string>Gui.Form1.lblFile.defaultvalue("")</string>
+        <string>Gui.Form1.lblFile.controlgroup(0)</string>
+        <string>Gui.Form1.txtf.create(textbox,"",True,4000,300,0,200,400,False,0,Arial,8,-2147483643,1)</string>
+        <string>Gui.Form1.txtf.defaultvalue("")</string>
+        <string>Gui.Form1.txtf.controlgroup(0)</string>
+        <string>Gui.Form1.cmdFileBrowse.create(button)</string>
+        <string>Gui.Form1.cmdFileBrowse.caption("^")</string>
+        <string>Gui.Form1.cmdFileBrowse.visible(True)</string>
+        <string>Gui.Form1.cmdFileBrowse.size(450,375)</string>
+        <string>Gui.Form1.cmdFileBrowse.zorder(0)</string>
+        <string>Gui.Form1.cmdFileBrowse.position(4300,355)</string>
+        <string>Gui.Form1.cmdFileBrowse.enabled(True)</string>
+        <string>Gui.Form1.cmdFileBrowse.fontname("Arial")</string>
+        <string>Gui.Form1.cmdFileBrowse.fontsize(8)</string>
+        <string>Gui.Form1.cmdFileBrowse.event(Click,cmdfilebrowse_click)</string>
+        <string>Gui.Form1.cmdFileBrowse.defaultvalue("")</string>
+        <string>Gui.Form1.cmdFileBrowse.controlgroup(0)</string>
+        <string>Gui.Form1.cmdLoad.create(button)</string>
+        <string>Gui.Form1.cmdLoad.caption("Load")</string>
+        <string>Gui.Form1.cmdLoad.visible(True)</string>
+        <string>Gui.Form1.cmdLoad.size(855,375)</string>
+        <string>Gui.Form1.cmdLoad.zorder(0)</string>
+        <string>Gui.Form1.cmdLoad.position(200,900)</string>
+        <string>Gui.Form1.cmdLoad.enabled(True)</string>
+        <string>Gui.Form1.cmdLoad.fontname("Arial")</string>
+        <string>Gui.Form1.cmdLoad.fontsize(8)</string>
+        <string>Gui.Form1.cmdLoad.event(Click,cmdLoad_click)</string>
+        <string>Gui.Form1.cmdLoad.defaultvalue("")</string>
+        <string>Gui.Form1.cmdLoad.controlgroup(0)</string>
+        <string>Gui.Form2..create</string>
+        <string>Gui.Form2..caption("ProNest Integration")</string>
+        <string>Gui.Form2..size(20805,8460)</string>
+        <string>Gui.Form2..minx(0)</string>
+        <string>Gui.Form2..miny(0)</string>
+        <string>Gui.Form2..position(0,0)</string>
+        <string>Gui.Form2..event(UnLoad,form2_unload)</string>
+        <string>Gui.Form2..alwaysontop(False)</string>
+        <string>Gui.Form2..fontname("Arial")</string>
+        <string>Gui.Form2..fontsize(8)</string>
+        <string>Gui.Form2..forecolor(0)</string>
+        <string>Gui.Form2..BackColor(-2147483633)</string>
+        <string>Gui.Form2..controlbox(True)</string>
+        <string>Gui.Form2..maxbutton(False)</string>
+        <string>Gui.Form2..minbutton(True)</string>
+        <string>Gui.Form2..mousepointer(0)</string>
+        <string>Gui.Form2..moveable(True)</string>
+        <string>Gui.Form2..sizeable(False)</string>
+        <string>Gui.Form2..ShowInTaskBar(True)</string>
+        <string>Gui.Form2..titlebar(True)</string>
+        <string>Gui.Form2.lblNestingNo.create(label,"Nesting Number",True,1305,255,1,200,515,True,0,Arial,8,-2147483633,0)</string>
+        <string>Gui.Form2.lblNestingNo.defaultvalue("")</string>
+        <string>Gui.Form2.lblNestingNo.controlgroup(0)</string>
+        <string>Gui.Form2.lblRawMaterial.create(label,"Raw Material",True,1080,255,1,1675,515,True,0,Arial,8,-2147483633,0)</string>
+        <string>Gui.Form2.lblRawMaterial.defaultvalue("")</string>
+        <string>Gui.Form2.lblRawMaterial.controlgroup(0)</string>
+        <string>Gui.Form2.lblTotalRun.create(label,"Total Run",True,1065,255,1,4930,515,True,0,Arial,8,-2147483633,0)</string>
+        <string>Gui.Form2.lblTotalRun.defaultvalue("")</string>
+        <string>Gui.Form2.lblTotalRun.controlgroup(0)</string>
+        <string>Gui.Form2.lblTotallbs.create(label,"Total lbs",True,735,255,1,6115,515,True,0,Arial,8,-2147483633,0)</string>
+        <string>Gui.Form2.lblTotallbs.defaultvalue("")</string>
+        <string>Gui.Form2.lblTotallbs.controlgroup(0)</string>
+        <string>Gui.Form2.lblLoc.create(label,"Location",True,735,255,1,3850,535,True,0,Arial,8,-2147483633,0)</string>
+        <string>Gui.Form2.lblLoc.defaultvalue("")</string>
+        <string>Gui.Form2.lblLoc.controlgroup(0)</string>
+        <string>Gui.Form2.txtNestingNo.create(textbox,"",True,1215,300,0,200,770,False,0,Arial,8,-2147483643,1)</string>
+        <string>Gui.Form2.txtNestingNo.defaultvalue("")</string>
+        <string>Gui.Form2.txtNestingNo.controlgroup(0)</string>
+        <string>Gui.Form2.txtRawMaterial.create(textbox,"",True,1995,300,0,1680,780,True,0,Arial,8,-2147483643,1)</string>
+        <string>Gui.Form2.txtRawMaterial.event(Click,txtrawmaterial_click)</string>
+        <string>Gui.Form2.txtRawMaterial.defaultvalue("")</string>
+        <string>Gui.Form2.txtRawMaterial.controlgroup(0)</string>
+        <string>Gui.Form2.txtTotalRun.create(textbox,"",True,645,300,0,4950,785,False,1,Arial,8,-2147483643,1)</string>
+        <string>Gui.Form2.txtTotalRun.defaultvalue("")</string>
+        <string>Gui.Form2.txtTotalRun.controlgroup(0)</string>
+        <string>Gui.Form2.txtTotalLbs.create(textbox,"",True,1215,300,0,6115,785,False,1,Arial,8,-2147483643,1)</string>
+        <string>Gui.Form2.txtTotalLbs.defaultvalue("")</string>
+        <string>Gui.Form2.txtTotalLbs.controlgroup(0)</string>
+        <string>Gui.Form2.txtLoc.create(textbox,"",True,465,300,0,3860,775,False,0,Arial,8,-2147483643,1)</string>
+        <string>Gui.Form2.txtLoc.defaultvalue("")</string>
+        <string>Gui.Form2.txtLoc.controlgroup(0)</string>
+        <string>Gui.Form2.lblErrorMapping.create(label,"Error Mapping",True,1935,255,1,195,5310,True,0,Arial,8,-2147483633,0)</string>
+        <string>Gui.Form2.lblErrorMapping.defaultvalue("")</string>
+        <string>Gui.Form2.lblErrorMapping.controlgroup(0)</string>
+        <string>Gui.Form2.cmdValidate.create(button)</string>
+        <string>Gui.Form2.cmdValidate.caption("Validate")</string>
+        <string>Gui.Form2.cmdValidate.visible(True)</string>
+        <string>Gui.Form2.cmdValidate.size(1305,555)</string>
+        <string>Gui.Form2.cmdValidate.zorder(0)</string>
+        <string>Gui.Form2.cmdValidate.position(13125,5250)</string>
+        <string>Gui.Form2.cmdValidate.enabled(True)</string>
+        <string>Gui.Form2.cmdValidate.fontname("Arial")</string>
+        <string>Gui.Form2.cmdValidate.fontsize(8)</string>
+        <string>Gui.Form2.cmdValidate.event(Click,cmdvalidate_click)</string>
+        <string>Gui.Form2.cmdValidate.defaultvalue("")</string>
+        <string>Gui.Form2.cmdValidate.controlgroup(0)</string>
+        <string>Gui.Form2.cmdSupplyandDemand.create(button)</string>
+        <string>Gui.Form2.cmdSupplyandDemand.caption("Supply and Demand")</string>
+        <string>Gui.Form2.cmdSupplyandDemand.visible(True)</string>
+        <string>Gui.Form2.cmdSupplyandDemand.size(1305,555)</string>
+        <string>Gui.Form2.cmdSupplyandDemand.zorder(0)</string>
+        <string>Gui.Form2.cmdSupplyandDemand.position(19035,6120)</string>
+        <string>Gui.Form2.cmdSupplyandDemand.enabled(False)</string>
+        <string>Gui.Form2.cmdSupplyandDemand.fontname("Arial")</string>
+        <string>Gui.Form2.cmdSupplyandDemand.fontsize(8)</string>
+        <string>Gui.Form2.cmdSupplyandDemand.event(Click,cmdsupplyanddemand_click)</string>
+        <string>Gui.Form2.cmdSupplyandDemand.defaultvalue("")</string>
+        <string>Gui.Form2.cmdSupplyandDemand.controlgroup(0)</string>
+        <string>Gui.Form2.cmdProcess.create(button)</string>
+        <string>Gui.Form2.cmdProcess.caption("Process")</string>
+        <string>Gui.Form2.cmdProcess.visible(True)</string>
+        <string>Gui.Form2.cmdProcess.size(1305,555)</string>
+        <string>Gui.Form2.cmdProcess.zorder(0)</string>
+        <string>Gui.Form2.cmdProcess.position(16050,5250)</string>
+        <string>Gui.Form2.cmdProcess.enabled(False)</string>
+        <string>Gui.Form2.cmdProcess.fontname("Arial")</string>
+        <string>Gui.Form2.cmdProcess.fontsize(8)</string>
+        <string>Gui.Form2.cmdProcess.event(Click,cmdprocess_click)</string>
+        <string>Gui.Form2.cmdProcess.defaultvalue("")</string>
+        <string>Gui.Form2.cmdProcess.controlgroup(0)</string>
+        <string>Gui.Form2.cmdIssueMat.create(button)</string>
+        <string>Gui.Form2.cmdIssueMat.caption("Issue Material")</string>
+        <string>Gui.Form2.cmdIssueMat.visible(True)</string>
+        <string>Gui.Form2.cmdIssueMat.size(1305,555)</string>
+        <string>Gui.Form2.cmdIssueMat.zorder(0)</string>
+        <string>Gui.Form2.cmdIssueMat.position(17535,5250)</string>
+        <string>Gui.Form2.cmdIssueMat.enabled(False)</string>
+        <string>Gui.Form2.cmdIssueMat.fontname("Arial")</string>
+        <string>Gui.Form2.cmdIssueMat.fontsize(8)</string>
+        <string>Gui.Form2.cmdIssueMat.event(Click,cmdissuemat_click)</string>
+        <string>Gui.Form2.cmdIssueMat.defaultvalue("")</string>
+        <string>Gui.Form2.cmdIssueMat.controlgroup(0)</string>
+        <string>Gui.Form2.CmdExport.create(button)</string>
+        <string>Gui.Form2.CmdExport.caption("Export")</string>
+        <string>Gui.Form2.CmdExport.visible(True)</string>
+        <string>Gui.Form2.CmdExport.size(1305,555)</string>
+        <string>Gui.Form2.CmdExport.zorder(0)</string>
+        <string>Gui.Form2.CmdExport.position(19035,5250)</string>
+        <string>Gui.Form2.CmdExport.enabled(False)</string>
+        <string>Gui.Form2.CmdExport.fontname("Arial")</string>
+        <string>Gui.Form2.CmdExport.fontsize(8)</string>
+        <string>Gui.Form2.CmdExport.event(Click,cmdexport_click)</string>
+        <string>Gui.Form2.CmdExport.defaultvalue("")</string>
+        <string>Gui.Form2.CmdExport.controlgroup(0)</string>
+        <string>Gui.Form2.cmdReverse.create(button)</string>
+        <string>Gui.Form2.cmdReverse.caption("Reverse")</string>
+        <string>Gui.Form2.cmdReverse.visible(True)</string>
+        <string>Gui.Form2.cmdReverse.size(1305,555)</string>
+        <string>Gui.Form2.cmdReverse.zorder(0)</string>
+        <string>Gui.Form2.cmdReverse.position(16065,6120)</string>
+        <string>Gui.Form2.cmdReverse.enabled(False)</string>
+        <string>Gui.Form2.cmdReverse.fontname("Arial")</string>
+        <string>Gui.Form2.cmdReverse.fontsize(8)</string>
+        <string>Gui.Form2.cmdReverse.event(Click,cmdreverse_click)</string>
+        <string>Gui.Form2.cmdReverse.defaultvalue("")</string>
+        <string>Gui.Form2.cmdReverse.controlgroup(0)</string>
+        <string>Gui.Form2.cmdReverseIssue.create(button)</string>
+        <string>Gui.Form2.cmdReverseIssue.caption("Reverse Issue")</string>
+        <string>Gui.Form2.cmdReverseIssue.visible(True)</string>
+        <string>Gui.Form2.cmdReverseIssue.size(1305,555)</string>
+        <string>Gui.Form2.cmdReverseIssue.zorder(0)</string>
+        <string>Gui.Form2.cmdReverseIssue.position(17535,6120)</string>
+        <string>Gui.Form2.cmdReverseIssue.enabled(False)</string>
+        <string>Gui.Form2.cmdReverseIssue.fontname("Arial")</string>
+        <string>Gui.Form2.cmdReverseIssue.fontsize(8)</string>
+        <string>Gui.Form2.cmdReverseIssue.event(Click,cmdreverseissue_click)</string>
+        <string>Gui.Form2.cmdReverseIssue.defaultvalue("")</string>
+        <string>Gui.Form2.cmdReverseIssue.controlgroup(0)</string>
+        <string>Gui.Form2.lblError1.create(label,"1. Mismatch Finish Good - Global Shop Work Order Finish Good does not match ProNest Finish Good",True,7590,255,1,195,5595,True,0,Arial,8,-2147483633,0)</string>
+        <string>Gui.Form2.lblError1.defaultvalue("")</string>
+        <string>Gui.Form2.lblError1.controlgroup(0)</string>
+        <string>Gui.Form2.lblProNest.create(label,"ProNest",True,1935,465,1,200,50,True,0,,14,-2147483633,0)</string>
+        <string>Gui.Form2.lblProNest.defaultvalue("")</string>
+        <string>Gui.Form2.lblProNest.controlgroup(0)</string>
+        <string>Gui.Form2.lblGlobalShop.create(label,"Global Shop",True,1935,390,1,10500,50,True,0,Arial,14,-2147483633,0)</string>
+        <string>Gui.Form2.lblGlobalShop.defaultvalue("")</string>
+        <string>Gui.Form2.lblGlobalShop.controlgroup(0)</string>
+        <string>Gui.Form2.lblFlexSched.create(label,"Flex Sched",True,1110,255,1,9330,515,True,0,Arial,8,-2147483633,0)</string>
+        <string>Gui.Form2.lblFlexSched.defaultvalue("")</string>
+        <string>Gui.Form2.lblFlexSched.controlgroup(0)</string>
+        <string>Gui.Form2.txtFlexSched.create(textbox,"",True,1215,300,0,9330,785,False,0,Arial,8,-2147483643,1)</string>
+        <string>Gui.Form2.txtFlexSched.defaultvalue("")</string>
+        <string>Gui.Form2.txtFlexSched.controlgroup(0)</string>
+        <string>Gui.Form2.lblTotalRunGSS.create(label,"Total Run",True,810,255,1,11180,515,True,0,Arial,8,-2147483633,0)</string>
+        <string>Gui.Form2.lblTotalRunGSS.defaultvalue("")</string>
+        <string>Gui.Form2.lblTotalRunGSS.controlgroup(0)</string>
+        <string>Gui.Form2.txtTotalRunGSS.create(textbox,"",True,1215,300,0,11180,785,False,1,Arial,8,-2147483643,1)</string>
+        <string>Gui.Form2.txtTotalRunGSS.defaultvalue("")</string>
+        <string>Gui.Form2.txtTotalRunGSS.controlgroup(1)</string>
+        <string>Gui.Form2.lblTotallbsGSS.create(label,"Total Lbs",True,1020,255,1,12600,515,True,0,Arial,8,-2147483633,0)</string>
+        <string>Gui.Form2.lblTotallbsGSS.defaultvalue("")</string>
+        <string>Gui.Form2.lblTotallbsGSS.controlgroup(0)</string>
+        <string>Gui.Form2.txtTotalLbsGSS.create(textbox,"",True,1215,300,0,12600,785,False,1,Arial,8,-2147483643,1)</string>
+        <string>Gui.Form2.txtTotalLbsGSS.defaultvalue("")</string>
+        <string>Gui.Form2.txtTotalLbsGSS.controlgroup(1)</string>
+        <string>Gui.Form2.lblTotal.create(label,"Total Qty",True,915,255,1,14005,515,True,0,Arial,8,-2147483633,0)</string>
+        <string>Gui.Form2.lblTotal.defaultvalue("")</string>
+        <string>Gui.Form2.lblTotal.controlgroup(0)</string>
+        <string>Gui.Form2.txtTotal.create(textbox,"",True,1215,300,0,14005,785,False,1,Arial,8,-2147483643,1)</string>
+        <string>Gui.Form2.txtTotal.defaultvalue("")</string>
+        <string>Gui.Form2.txtTotal.controlgroup(1)</string>
+        <string>Gui.Form2.lblToIssue.create(label,"To Issue (Sh)",True,1125,255,1,15310,515,True,0,Arial,8,-2147483633,0)</string>
+        <string>Gui.Form2.lblToIssue.defaultvalue("")</string>
+        <string>Gui.Form2.lblToIssue.controlgroup(0)</string>
+        <string>Gui.Form2.txtToIssue.create(textbox,"",True,1215,300,0,15280,785,False,1,Arial,8,-2147483643,1)</string>
+        <string>Gui.Form2.txtToIssue.defaultvalue("")</string>
+        <string>Gui.Form2.txtToIssue.controlgroup(1)</string>
+        <string>Gui.Form2.txtToScrap.create(textbox,"",True,1215,300,0,17000,785,False,1,Arial,8,-2147483643,1)</string>
+        <string>Gui.Form2.txtToScrap.defaultvalue("")</string>
+        <string>Gui.Form2.txtToScrap.controlgroup(1)</string>
+        <string>Gui.Form2.lblToScrap.create(label,"To Scrap",True,915,255,1,17015,515,True,0,Arial,8,-2147483633,0)</string>
+        <string>Gui.Form2.lblToScrap.defaultvalue("")</string>
+        <string>Gui.Form2.lblToScrap.controlgroup(0)</string>
+        <string>Gui.Form2.lblOnHand.create(label,"On Hand",True,825,255,1,18785,515,True,0,Arial,8,-2147483633,0)</string>
+        <string>Gui.Form2.lblOnHand.defaultvalue("")</string>
+        <string>Gui.Form2.lblOnHand.controlgroup(0)</string>
+        <string>Gui.Form2.txtOnHand.create(textbox,"",True,1215,300,0,18785,785,False,1,Arial,8,-2147483643,1)</string>
+        <string>Gui.Form2.txtOnHand.defaultvalue("")</string>
+        <string>Gui.Form2.txtOnHand.controlgroup(0)</string>
+        <string>Gui.Form2.lblError2.create(label,"2. Mismatch Raw Material - Global Shop Raw Material Part Number does not match ProNest Number.",True,7665,255,1,195,5865,True,0,Arial,8,-2147483633,0)</string>
+        <string>Gui.Form2.lblError2.defaultvalue("")</string>
+        <string>Gui.Form2.lblError2.controlgroup(0)</string>
+        <string>Gui.Form2.lblError3.create(label,"3. Mismatch Required - Total Raw Material does not match ProNest Raw Material Quantity.",True,6780,255,1,195,6135,True,0,Arial,8,-2147483633,0)</string>
+        <string>Gui.Form2.lblError3.defaultvalue("")</string>
+        <string>Gui.Form2.lblError3.controlgroup(0)</string>
+        <string>Gui.Form2.lblError4.create(label,"4. Insufficient On Hand - On Hand quantity in Global Shop is not enough to supply ProNest Requirement.",True,8010,255,1,195,6405,True,0,Arial,8,-2147483633,0)</string>
+        <string>Gui.Form2.lblError4.defaultvalue("")</string>
+        <string>Gui.Form2.lblError4.controlgroup(0)</string>
+        <string>Gui.Form2.lblError5.create(label,"5. Run Qty Exceeded. Run quantity from Work Order in Global Shop exceeds ProNest requirement.",True,7650,255,1,195,6675,True,0,Arial,8,-2147483633,0)</string>
+        <string>Gui.Form2.lblError5.defaultvalue("")</string>
+        <string>Gui.Form2.lblError5.controlgroup(0)</string>
+        <string>Gui.Form2.lblError6.create(label,"6. The standard type part number does not have a match in Global Shop.",True,6330,255,1,195,6945,True,0,Arial,8,-2147483633,0)</string>
+        <string>Gui.Form2.lblError6.defaultvalue("")</string>
+        <string>Gui.Form2.lblError6.controlgroup(0)</string>
+        <string>Gui.Form2.cmdRefresh.create(button)</string>
+        <string>Gui.Form2.cmdRefresh.caption("Refresh")</string>
+        <string>Gui.Form2.cmdRefresh.visible(True)</string>
+        <string>Gui.Form2.cmdRefresh.size(1305,555)</string>
+        <string>Gui.Form2.cmdRefresh.zorder(0)</string>
+        <string>Gui.Form2.cmdRefresh.position(13110,6120)</string>
+        <string>Gui.Form2.cmdRefresh.enabled(True)</string>
+        <string>Gui.Form2.cmdRefresh.fontname("Arial")</string>
+        <string>Gui.Form2.cmdRefresh.fontsize(8)</string>
+        <string>Gui.Form2.cmdRefresh.event(Click,cmdrefresh_click)</string>
+        <string>Gui.Form2.cmdRefresh.defaultvalue("")</string>
+        <string>Gui.Form2.cmdRefresh.controlgroup(0)</string>
+        <string>Gui.Form2.lbl22.create(label,"7. Consumption Quantity Could Not Be Found For Raw Material",True,6540,255,1,195,7215,True,0,Arial,8,-2147483633,0)</string>
+        <string>Gui.Form2.lbl22.defaultvalue("")</string>
+        <string>Gui.Form2.lbl22.controlgroup(0)</string>
+        <string>Gui.Form2.lbl23.create(label,"8. Work Order Not Found For Finished Good.",True,7290,255,1,195,7485,True,0,Arial,8,-2147483633,0)</string>
+        <string>Gui.Form2.lbl23.defaultvalue("")</string>
+        <string>Gui.Form2.lbl23.controlgroup(0)</string>
+        <string>Gui.Form2.cmdUpMaterial.Create(Button)</string>
+        <string>Gui.Form2.cmdUpMaterial.Enabled(False)</string>
+        <string>Gui.Form2.cmdUpMaterial.Size(1305,555)</string>
+        <string>Gui.Form2.cmdUpMaterial.Position(14580,5250)</string>
+        <string>Gui.Form2.cmdUpMaterial.Caption("Nest Material")</string>
+        <string>Gui.Form2.cmdUpMaterial.Event(Click,cmdUpMaterial_Click)</string>
+        <string>Gui.Form2.cmdRouterMaterial.Create(Button)</string>
+        <string>Gui.Form2.cmdRouterMaterial.Enabled(False)</string>
+        <string>Gui.Form2.cmdRouterMaterial.Size(1305,555)</string>
+        <string>Gui.Form2.cmdRouterMaterial.Position(14580,6120)</string>
+        <string>Gui.Form2.cmdRouterMaterial.Caption("Router Material")</string>
+        <string>Gui.Form2.cmdRouterMaterial.Event(Click,cmdRouterMaterial_Click)</string>
+        <string>Gui.Form2.gsgcNest.Create(GsGridControl)</string>
+        <string>Gui.Form2.gsgcNest.Size(20160,3855)</string>
+        <string>Gui.Form2.gsgcNest.Position(195,1200)</string>
+        <string>Gui.Form2.gsgcNest.Event(RowCellClick,gsfgpronest_commandclick)</string>
+        <string>Gui.Form3..create</string>
+        <string>Gui.Form3..caption("Company Option Errors")</string>
+        <string>Gui.Form3..size(12585,3750)</string>
+        <string>Gui.Form3..minx(0)</string>
+        <string>Gui.Form3..miny(0)</string>
+        <string>Gui.Form3..position(0,0)</string>
+        <string>Gui.Form3..event(UnLoad,Unload)</string>
+        <string>Gui.Form3..alwaysontop(False)</string>
+        <string>Gui.Form3..fontname("Arial")</string>
+        <string>Gui.Form3..fontsize(8)</string>
+        <string>Gui.Form3..forecolor(0)</string>
+        <string>Gui.Form3..BackColor(-2147483633)</string>
+        <string>Gui.Form3..controlbox(True)</string>
+        <string>Gui.Form3..maxbutton(True)</string>
+        <string>Gui.Form3..minbutton(True)</string>
+        <string>Gui.Form3..mousepointer(0)</string>
+        <string>Gui.Form3..moveable(True)</string>
+        <string>Gui.Form3..sizeable(True)</string>
+        <string>Gui.Form3..ShowInTaskBar(True)</string>
+        <string>Gui.Form3..titlebar(True)</string>
+        <string>Gui.Form3.lblOptionErrors.create(label,"Label",True,12060,5385,1,200,200,True,0,Arial,8,-2147483633,0)</string>
+        <string>Gui.Form3.lblOptionErrors.defaultvalue("")</string>
+        <string>Gui.Form3.lblOptionErrors.controlgroup(0)</string>
+        <string>Program.Sub.ScreenSU.End</string>
+        <string />
+        <string>Program.Sub.Preflight.Start</string>
+        <string>Variable.Global.sLoc.Declare(String)</string>
+        <string>Variable.Global.iRows.Declare(Long,0)</string>
+        <string>Variable.Global.sRaw.Declare(String)</string>
+        <string>Variable.Global.fTotalOnHand.Declare(Float,0.0)</string>
+        <string>Variable.Global.fConsumption.Declare(Float,0.0)</string>
+        <string>Variable.Global.iErrorCount.Declare(Long,0)</string>
+        <string>Variable.Global.fScrap.Declare(Float,-1)</string>
+        <string>Variable.Global.iSupplyDemand.Declare(Long,-1)</string>
+        <string>Variable.Global.sIssueFlag.Declare(String,"N")</string>
+        <string>Variable.Global.bValidate.Declare(Boolean,False)</string>
+        <string>Variable.Global.bProcess.Declare(Boolean,False)</string>
+        <string>Program.Sub.Preflight.End</string>
+        <string />
+        <string>Program.Sub.Main.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("Main_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string>V.Local.sError.Declare(String)</string>
+        <string>'ProNext Validaiton check for Roura</string>
+        <string>'Coded by: WAW,BCC</string>
+        <string>'Date: 6/24/2016</string>
+        <string>'open the conneciton</string>
+        <string>F.ODBC.Connection!Conx.OpenConnection(V.Ambient.PDSN,V.Ambient.PUser,V.Ambient.PPass,1800)</string>
+        <string>'disable the process button</string>
+        <string>'Gui.Form1.cmdLoad.Enabled(False)</string>
+        <string>'check the company options</string>
+        <string>F.Intrinsic.Control.CallSub(Companyoptioncheck)</string>
+        <string>'display the form if no errors found</string>
+        <string>F.Intrinsic.Control.If(V.Args.Errors,=,False)</string>
+        <string>	Gui.Form1..Visible(true)</string>
+        <string>F.Intrinsic.Control.EndIf</string>
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string>F.Intrinsic.Control.Label("Main_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4138_ProNest.gas",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>'	f.Intrinsic.Control.CallSub</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string>Program.Sub.Main.End</string>
+        <string />
+        <string>Program.Sub.Unload.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("Unload_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string>V.Local.sError.Declare(String)</string>
+        <string>'close connection</string>
+        <string>F.ODBC.Connection!Conx.Close</string>
+        <string>'end the program</string>
+        <string>F.Intrinsic.Control.End</string>
+        <string />
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string>F.Intrinsic.Control.Label("Unload_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4138_ProNest.gas",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	F.Intrinsic.Control.End</string>
+        <string />
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string>Program.Sub.Unload.End</string>
+        <string />
+        <string>Program.Sub.CompanyOptionCheck.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("CompanyOptionCheck_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string>V.Local.sError.Declare(String)</string>
+        <string>V.Local.ssql.Declare(String)</string>
+        <string>V.Local.smsgline.Declare(String)</string>
+        <string>V.Local.smsgfinal.Declare(String)</string>
+        <string>V.Local.bErrors.Declare(Boolean,False)</string>
+        <string>'get the user's location</string>
+        <string>F.Intrinsic.string.Build("Select Text1 from USER_OPTIONS where ID = '{0}' and Option_ID = '{1}'",V.Caller.User,"000014",V.Local.ssql)</string>
+        <string>F.ODBC.Connection!Conx.OpenLocalRecordsetRO("rst",V.Local.sSQL)</string>
+        <string>'if end of file is false, set the global sloc variable as the location</string>
+        <string>F.Intrinsic.Control.If(V.ODBC.Conx!rst.EOF,=,False)</string>
+        <string>	V.Global.sLoc.Set(V.ODBC.Conx!rst.FieldValTrim!Text1)</string>
+        <string>F.Intrinsic.Control.EndIf</string>
+        <string>'close the rst connection</string>
+        <string>F.ODBC.Conx!rst.Close</string>
+        <string>'check the company options and compile a list of all the company options that are not turned on</string>
+        <string>F.Intrinsic.String.Build("Select F_Boolean, ID from V_OP_HEADER where ID = '{0}' or ID = '{1}' or ID = '{2}'","401219","060001","401705",V.Local.ssql)</string>
+        <string>F.ODBC.Connection!Conx.OpenLocalRecordsetRO("rst",V.Local.sSQL)</string>
+        <string>'do until eof is true</string>
+        <string>F.Intrinsic.Control.DoUntil(V.ODBC.conX!rst.EOF,=,True)</string>
+        <string>	'check to see if the the options are checked</string>
+        <string>	F.Intrinsic.Control.If(V.ODBC.Conx!rst.FieldValTrim!F_Boolean,=,"0")</string>
+        <string>		'check what the ID is and build the msg</string>
+        <string>		'COGS option</string>
+        <string>		F.Intrinsic.Control.If(V.ODBC.Conx!rst.FieldValTrim!ID,=,"401219")</string>
+        <string>			'write the message line</string>
+        <string>			V.Local.smsgline.Set("Track COGS Option: System Support -&gt; Administration -&gt; Company Options (Standard) -&gt; Inventory Accounting Options -&gt; Manufacturing -&gt; Track Cost of Goods Sold")</string>
+        <string>			'see if there has already been a msg line written</string>
+        <string>			F.Intrinsic.Control.If(V.Local.smsgfinal,&lt;&gt;,"")</string>
+        <string>				F.Intrinsic.String.Build("{0}{1}{1}{2}",V.Local.smsgfinal,V.Ambient.NewLine,V.Local.smsgline,V.Local.smsgfinal)</string>
+        <string>			F.Intrinsic.Control.Else</string>
+        <string>				V.Local.smsgfinal.Set(V.Local.smsgline)</string>
+        <string>			F.Intrinsic.Control.EndIf</string>
+        <string>		'Release Job option</string>
+        <string>		F.Intrinsic.Control.ElseIf(V.ODBC.Conx!rst.FieldValTrim!ID,=,"060001")</string>
+        <string>			'write the message line</string>
+        <string>			V.Local.smsgline.Set("Release Job Option: System Support -&gt; Administration -&gt; Company Options (Standard) -&gt; Online -&gt; Work Orders Must Be Released to the Floor")</string>
+        <string>			'see if there has already been a msg line written</string>
+        <string>			F.Intrinsic.Control.If(V.Local.smsgfinal,&lt;&gt;,"")</string>
+        <string>				F.Intrinsic.String.Build("{0}{1}{1}{2}",V.Local.smsgfinal,V.Ambient.NewLine,V.Local.smsgline,V.Local.smsgfinal)</string>
+        <string>			F.Intrinsic.Control.Else</string>
+        <string>				V.Local.smsgfinal.Set(V.Local.smsgline)</string>
+        <string>			F.Intrinsic.Control.EndIf</string>
+        <string>		'Close COG's WO when run Qty shipped</string>
+        <string>		F.Intrinsic.Control.ElseIf(V.ODBC.Conx!rst.FieldValTrim!ID,=,"401705")</string>
+        <string>			'write the message line</string>
+        <string>			V.Local.smsgline.Set("Close COGS Option: System Support -&gt; Administration -&gt; Company Options (Advanced) -&gt; Order Entry -&gt; Close COG's WO When Run Qty Shipped")</string>
+        <string>			'see if there has already been a msg line written</string>
+        <string>			F.Intrinsic.Control.If(V.Local.smsgfinal,&lt;&gt;,"")</string>
+        <string>				F.Intrinsic.String.Build("{0}{1}{1}{2}",V.Local.smsgfinal,V.Ambient.NewLine,V.Local.smsgline,V.Local.smsgfinal)</string>
+        <string>			F.Intrinsic.Control.Else</string>
+        <string>				V.Local.smsgfinal.Set(V.Local.smsgline)</string>
+        <string>			F.Intrinsic.Control.EndIf</string>
+        <string>		F.Intrinsic.Control.EndIf</string>
+        <string>	F.Intrinsic.Control.EndIf</string>
+        <string>	'move to the next record</string>
+        <string>	F.ODBC.conx!rst.MoveNext</string>
+        <string>Function.Intrinsic.Control.Loop</string>
+        <string>V.Local.ssql.Set("select Text1 from OP_HEADER Where ID = '401787'")</string>
+        <string>F.ODBC.Connection!Conx.OpenLocalRecordsetRO("rstGL",V.Local.ssql)</string>
+        <string>F.Intrinsic.Control.If(V.ODBC.Conx!rstGL.FieldValTrim!Text1,=,"")</string>
+        <string>	V.Local.smsgline.Set("Quality GL Account Option: System Support -&gt; Administration -&gt; Company Options (Advanced) -&gt; Miscellaneous -&gt; Quality Options -&gt; Return Variance Account")</string>
+        <string>	F.Intrinsic.Control.If(V.Local.smsgfinal,&lt;&gt;,"")</string>
+        <string>		F.Intrinsic.String.Build("{0}{1}{1}{2}",V.Local.smsgfinal,V.Ambient.NewLine,V.Local.smsgline,V.Local.smsgfinal)</string>
+        <string>	F.Intrinsic.Control.Else</string>
+        <string>		V.Local.smsgfinal.Set(V.Local.smsgline)</string>
+        <string>	F.Intrinsic.Control.EndIf</string>
+        <string>F.Intrinsic.Control.EndIf</string>
+        <string>F.ODBC.Conx!rstGL.Close</string>
+        <string>'check to see if any of the options were note turned on, if so inform the user and close the program</string>
+        <string>F.Intrinsic.Control.If(V.Local.smsgfinal,&lt;&gt;,"")</string>
+        <string>	'build the final message to the user</string>
+        <string>	F.Intrinsic.String.Build("{0}{1}{1}{1}{2}{3}{3}{3}{4}","The following options are not turned on:",V.ambient.newline,V.Local.smsgfinal,V.Ambient.NewLine,"The program cannot continue until options have been activated",V.Local.smsgfinal)</string>
+        <string>	Gui.Form3.lblOptionErrors.Caption(V.Local.smsgfinal)</string>
+        <string>	V.Local.bErrors.Set(True)</string>
+        <string>	Gui.Form3..Show</string>
+        <string>F.Intrinsic.Control.EndIf</string>
+        <string>F.Intrinsic.Variable.AddRV("Errors",V.Local.bErrors)</string>
+        <string>'close the rst connection</string>
+        <string>F.ODBC.Conx!rst.Close</string>
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string>F.Intrinsic.Control.Label("CompanyOptionCheck_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4138_ProNest.gas",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	F.Intrinsic.Control.CallSub(Unload)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string>Program.Sub.CompanyOptionCheck.End</string>
+        <string />
+        <string>Program.Sub.cmdfilebrowse_click.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("cmdfilebrowse_click_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string>V.Local.sError.Declare(String)</string>
+        <string>Variable.Local.sFile.Declare(String)</string>
+        <string>Variable.Local.sDir.Declare(String)</string>
+        <string>V.Local.ssql.Declare(String)</string>
+        <string>V.Local.irow.Declare(Long)</string>
+        <string>V.Local.i.Declare(Long)</string>
+        <string>V.Local.srow.Declare(String)</string>
+        <string>V.Local.scol.Declare(String)</string>
+        <string>V.Local.sloc.Declare(String)</string>
+        <string>'build the file directory</string>
+        <string>F.Intrinsic.String.Build("{0}\Select File",V.Caller.FilesDir,V.Local.sDir)</string>
+        <string>'open file dialog</string>
+        <string>Function.Intrinsic.UI.ShowOpenFileDialog("","",Variable.Local.sDir,Variable.Local.sFile)</string>
+        <string>Function.Intrinsic.Control.If(Variable.Local.sFile,&lt;&gt;,"***CANCEL***")</string>
+        <string>	Gui.Form1.txtf.Text(V.Local.sFile)</string>
+        <string>'otherwise inform the user no file was selected</string>
+        <string>F.Intrinsic.Control.Else</string>
+        <string>	'show message box</string>
+        <string>	F.Intrinsic.UI.Msgbox("No ProNest file was selected.")</string>
+        <string>	F.Intrinsic.Control.ExitSub</string>
+        <string>F.Intrinsic.Control.EndIf</string>
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string>F.Intrinsic.Control.Label("cmdfilebrowse_click_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4138_ProNest.gas",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	F.Intrinsic.Control.CallSub(Unload)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string>Program.Sub.cmdfilebrowse_click.End</string>
+        <string />
+        <string>Program.Sub.cmdLoad_click.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("cmdload_click_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string>V.Local.sError.Declare(String)</string>
+        <string>V.Local.sfile.Declare(String)</string>
+        <string>V.Local.scol.Declare(String)</string>
+        <string>V.Local.i.Declare(Long)</string>
+        <string>V.Local.srow.Declare(String)</string>
+        <string>V.Local.irow.Declare(Long)</string>
+        <string>V.Local.ftotalruns.Declare(Float,0)</string>
+        <string>V.Local.ftotallbs.Declare(Float,0)</string>
+        <string>V.Local.sret.Declare(String)</string>
+        <string>V.Local.fLbs.Declare(Float,0)</string>
+        <string>V.Local.bbuildstyle.Declare(Boolean,False)</string>
+        <string>V.Local.ssql.Declare(String)</string>
+        <string>v.Local.sTitle.Declare(String)</string>
+        <string>v.Local.sType.Declare(String)</string>
+        <string>v.Local.sFilter.Declare(String)</string>
+        <string>'close the first form</string>
+        <string>Gui.Form1..Visible(false)</string>
+        <string>Gui.Form2.cmdSupplyandDemand.Enabled(True)</string>
+        <string>Gui.Form2.cmdValidate.SetFocus</string>
+        <string>'invoke the wait dialog</string>
+        <string>F.Intrinsic.UI.InvokeWaitDialog("Generating Data...")</string>
+        <string>'get the name of the file</string>
+        <string>V.Local.sfile.Set(V.Screen.Form1!txtf.Text)</string>
+        <string>'read the spreadsheet</string>
+        <string>F.Automation.MSExcel.ReadSpreadsheet(V.Local.sFile,V.Local.sFile)</string>
+        <string>'Need to update to DataTable</string>
+        <string>v.Local.sTitle.Set("JobNumber*!*NestNumber*!*Runs*!*Part*!*PartWeight*!*QtyNest*!*Remark*!*RawMaterial*!*Material*!*PlateThick*!*PlateWidth*!*PlateLength*!*PlateWeight*!*PerUse*!*DoNotUse")</string>
+        <string>v.Local.sType.Set("String*!*String*!*String*!*String*!*String*!*String*!*String*!*String*!*String*!*String*!*String*!*String*!*String*!*String*!*String")</string>
+        <string>F.Data.DataTable.CreateFromString("ProNest",v.Local.sfile,v.Local.sTitle, v.Local.sType,"*!*", "$!$",True)</string>
+        <string>v.Local.sFilter.Set("JobNumber &lt;&gt; 'Job Name' AND JobNumber &lt;&gt; ' '")</string>
+        <string>F.Data.DataView.Create("ProNest", "Nest", 22, v.Local.sFilter, "JobNumber Asc")</string>
+        <string>F.Data.DataTable.AddColumn("ProNest", "Type", "String")</string>
+        <string>F.Data.DataTable.AddColumn("ProNest", "WO#", "String")</string>
+        <string>F.Data.DataTable.AddColumn("ProNest", "Error", "String")</string>
+        <string>F.Data.DataTable.AddColumn("ProNest", "RunQty", "String")</string>
+        <string>F.Data.DataTable.AddColumn("ProNest", "RMQtyLb", "String")</string>
+        <string>F.Data.DataTable.AddColumn("ProNest", "RMQtySh", "String")</string>
+        <string>F.Data.DataTable.AddColumn("ProNest", "RMIssueSh", "String")</string>
+        <string>F.Data.DataTable.AddColumn("ProNest", "ScrapCalc", "String")</string>
+        <string>F.Data.DataTable.AddColumn("ProNest", "RemainingOnHand", "String")</string>
+        <string>F.Data.DataTable.AddColumn("ProNest", "WOSeq", "String")</string>
+        <string>'set the screens textboxes as the values from the spreadsheet</string>
+        <string>'check to make sure that ProNest file has not been processed before</string>
+        <string>F.Intrinsic.Control.CallSub(Pronest_check)</string>
+        <string>'set the Global Shop Flex Sched</string>
+        <string>'Gui.Form2.txtRawMaterial.Text(V.uGlobal.uProNest(0)!sRawMat)</string>
+        <string>Gui.Form2.txtRawMaterial.Text(V.DataView.ProNest!Nest(0).RawMaterial!FieldVal)</string>
+        <string>F.Intrinsic.String.Build("SELECT QTY_ONHAND FROM INVENTORY_MSTR WHERE PART = '{0}' AND LOCATION = '{1}'",V.DataView.ProNest!Nest(0).RawMaterial!FieldVal,V.Global.sLoc.Trim,V.Local.ssql)</string>
+        <string>F.ODBC.Connection!Conx.OpenLocalRecordsetRO("rstRaw",V.Local.ssql)</string>
+        <string>'If the part is found, set on hand quantity, otherwise qty on hand will be zero.</string>
+        <string>F.Intrinsic.Control.If(V.ODBC.Conx!rstRaw.EOF,&lt;&gt;,True)</string>
+        <string>	V.Global.fTotalOnHand.Set(V.ODBC.Conx!rstRaw.FieldValFloat!QTY_ONHAND)</string>
+        <string>	Gui.Form2.txtOnHand.Text(V.Global.fTotalOnHand)</string>
+        <string>F.Intrinsic.Control.EndIf</string>
+        <string>F.ODBC.ConX!rstRaw.Close</string>
+        <string>F.Intrinsic.String.Build("SELECT CONSUMP_CONV FROM INVENTORY_MST3 WHERE PART = '{0}' AND LOCATION = '{1}'",V.DataView.ProNest!Nest(0).RawMaterial!FieldVal,V.Global.sLoc.Trim,V.Local.ssql)</string>
+        <string>F.ODBC.Connection!Conx.OpenLocalRecordsetRO("rstCons",V.Local.ssql)</string>
+        <string>'Set consumption percent if part is found</string>
+        <string>F.Intrinsic.Control.If(V.ODBC.Conx!rstCons.EOF,&lt;&gt;,True)</string>
+        <string>	V.Global.fConsumption.Set(V.ODBC.Conx!rstCons.FieldValFloat!CONSUMP_CONV)</string>
+        <string>F.Intrinsic.Control.EndIf</string>
+        <string>F.ODBC.Conx!rstCons.Close</string>
+        <string>F.Intrinsic.Control.If(V.Global.fScrap,&lt;,0)</string>
+        <string>	F.Intrinsic.Math.Sub(100,V.DataView.ProNest!Nest(0).PerUse!FieldVal,V.Global.fScrap)</string>
+        <string>	'It was in percent, divide by 100 to get sheets</string>
+        <string>	F.Intrinsic.Math.Div(V.Global.fScrap,100,V.Global.fScrap)</string>
+        <string>F.Intrinsic.Control.EndIf</string>
+        <string>F.Intrinsic.Control.For(V.Local.i,0,V.DataView.ProNest!Nest.RowCount--,1)</string>
+        <string>	F.Data.DataView.SetValue("ProNest", "Nest", v.Local.i, "Remark", "Edit")</string>
+        <string>	'Check to make sure that the raw material is in global shop, otherwise add the error to every row.</string>
+        <string>	F.Intrinsic.Control.CallSub(Error_mismatchraw,"Row",V.Local.i)</string>
+        <string>		'see if it is a custom part or not</string>
+        <string>	F.Intrinsic.string.Left(V.DataView.ProNest!Nest(v.Local.i).Part!FieldVal,1,V.Local.sret.UCase)</string>
+        <string>	'if its a custom put "CUSTOM"</string>
+        <string>	F.Intrinsic.Control.if(V.Local.sret.UCase,=,"C")</string>
+        <string>		F.Data.DataView.SetValue("ProNest", "Nest", v.Local.i, "Type", "Custom")</string>
+        <string>	F.Intrinsic.Control.Else</string>
+        <string>		'otherwise put standard</string>
+        <string>		F.Data.DataView.SetValue("ProNest", "Nest", v.Local.i, "Type", "Standard")</string>
+        <string>			'see if the standard part is valid in GSS</string>
+        <string>		F.Intrinsic.Control.CallSub(Error_missingcomp,"Part",V.DataView.ProNest!Nest(v.Local.i).Part!FieldVal,"Row",V.Local.i)</string>
+        <string>	F.Intrinsic.Control.EndIf</string>
+        <string>		'add all the lbs together, but first multiply the lbs by the run qty</string>
+        <string>	F.Intrinsic.Math.Mult(V.DataView.ProNest!Nest(v.Local.i).PartWeight!FieldValFloat,V.DataView.ProNest!Nest(v.Local.i).QtyNest!FieldValFloat,V.Local.fLbs)</string>
+        <string>	F.Intrinsic.Math.Add(V.Local.ftotallbs,V.Local.fLbs,V.Local.ftotallbs)</string>
+        <string>		'add all the runs together</string>
+        <string>	F.Intrinsic.Math.Add(V.Local.ftotalruns,V.DataView.ProNest!Nest(v.Local.i).QtyNest!FieldValFloat,V.Local.ftotalruns)</string>
+        <string>	'Check to make sure that there is enough on hand quantity in global shop to meet pronest requirements</string>
+        <string>	F.Intrinsic.Control.CallSub(Error_zeroconsump,"Row",V.Local.i)</string>
+        <string>F.Intrinsic.Control.Next(V.Local.i)</string>
+        <string>'set the total runs and total lbs and location</string>
+        <string>Gui.Form2.txtTotalLbs.Text(V.Local.ftotallbs)</string>
+        <string>Gui.Form2.txtTotalRun.Text(V.Local.ftotalruns)</string>
+        <string>Gui.Form2.txtLoc.Text(V.Global.sLoc)</string>
+        <string>'Check to make sure that there is a job that has a router that equals the component part</string>
+        <string>F.Intrinsic.Control.CallSub(Buildstyle)</string>
+        <string>F.Intrinsic.UI.CloseWaitDialog</string>
+        <string>Gui.Form2..Show</string>
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string>F.Intrinsic.Control.Label("cmdload_click_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4138_ProNest.gas",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	F.Intrinsic.Control.CallSub(Unload)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string>Program.Sub.cmdLoad_click.End</string>
+        <string />
+        <string>Program.Sub.form2_unload.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("form2_unload_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string>V.Local.sError.Declare(String)</string>
+        <string>F.ODBC.Connection!Conx.Close</string>
+        <string>F.Intrinsic.Control.End</string>
+        <string />
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string>F.Intrinsic.Control.Label("form2_unload_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>Function.Intrinsic.String.Concat("Project: GCG_4138_ProNest.gas",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	F.Intrinsic.Control.End</string>
+        <string />
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string>Program.Sub.form2_unload.End</string>
+        <string />
+        <string>Program.Sub.Buildstyle.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("Buildstyle_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string>V.Local.sError.Declare(String)</string>
+        <string>Gui.Form2.gsgcNest.AddGridViewFromDataView("GridNest", "ProNest", "Nest")</string>
+        <string>Gui.Form2.gsgcNest.MainView("GridNest")</string>
+        <string>Gui.Form2.gsgcNest.SetGridViewProperty("GridNest", "ReadOnly", True)</string>
+        <string>Gui.Form2.gsgcNest.SetColumnProperty("GridNest","JobNumber", "Visible", False)</string>
+        <string>Gui.Form2.gsgcNest.SetColumnProperty("GridNest","NestNumber", "Visible", False)</string>
+        <string>Gui.Form2.gsgcNest.SetColumnProperty("GridNest","PlateThick", "Visible", False)</string>
+        <string>Gui.Form2.gsgcNest.SetColumnProperty("GridNest","PlateWidth", "Visible", False)</string>
+        <string>Gui.Form2.gsgcNest.SetColumnProperty("GridNest","PlateLength", "Visible", False)</string>
+        <string>Gui.Form2.gsgcNest.SetColumnProperty("GridNest","PlateWeight", "Visible", False)</string>
+        <string>Gui.Form2.gsgcNest.SetColumnProperty("GridNest","PerUse", "Visible", False)</string>
+        <string>Gui.Form2.gsgcNest.SetColumnProperty("GridNest","Material", "Visible", False)</string>
+        <string>Gui.Form2.gsgcNest.SetColumnProperty("GridNest","QtyNest", "Visible", False)</string>
+        <string>Gui.Form2.gsgcNest.SetColumnProperty("GridNest","RawMaterial", "Visible", False)</string>
+        <string>Gui.Form2.gsgcNest.SetColumnProperty("GridNest","WOSeq", "Visible", False)</string>
+        <string>'Gui.Form2.gsgcNest.SetColumnProperty("GridNest","Remark", "CellBackColor", v.Color.SEC-GSS-12)</string>
+        <string>Gui.Form2.gsgcNest.SetColumnProperty("GridNest","Remark", "CellHAlignment", "Center")</string>
+        <string>Gui.Form2.gsgcNest.SetColumnProperty("GridNest","Runs", "CellHAlignment", "Far")</string>
+        <string>Gui.Form2.gsgcNest.SetColumnProperty("GridNest","Remark", "Width", 50)</string>
+        <string>Gui.Form2.gsgcNest.SetColumnProperty("GridNest","PartWeight", "CellHAlignment", "Far")</string>
+        <string>Gui.Form2.gsgcNest.SetColumnProperty("GridNest","Remark", "AllowEdit", False)</string>
+        <string>Gui.Form2.gsgcNest.ColumnEdit("GridNest", "Remark", "EditorButton", "Edit")</string>
+        <string />
+        <string>Gui.Form2.gsgcNest.SetColumnProperty("GridNest","WO#", "AllowEdit", False)</string>
+        <string>Gui.Form2.gsgcNest.SetColumnProperty("GridNest","WO#", "CellForeColor", v.Color.SEC-GSS-02)</string>
+        <string>Gui.Form2.gsgcNest.SetColumnProperty("GridNest","Part", "AllowEdit", False)</string>
+        <string />
+        <string>Gui.Form2.gsgcNest.SetColumnProperty("GridNest","Part", "Caption", "Component Desc")</string>
+        <string>Gui.Form2.gsgcNest.SetColumnProperty("GridNest","Runs", "Caption", "Run Qty")</string>
+        <string>Gui.Form2.gsgcNest.SetColumnProperty("GridNest","PartWeight", "Caption", "Raw Material Qty(Lb)")</string>
+        <string>Gui.Form2.gsgcNest.SetColumnProperty("GridNest","Remark", "Caption", "Edit")</string>
+        <string>Gui.Form2.gsgcNest.SetColumnProperty("GridNest","DoNotUse", "Caption", " ")</string>
+        <string>Gui.Form2.gsgcNest.SetColumnProperty("GridNest","RunQty", "Caption", "Run Qty")</string>
+        <string>Gui.Form2.gsgcNest.SetColumnProperty("GridNest","RmQtyLb", "Caption", "RM Qty(Lb)")</string>
+        <string>Gui.Form2.gsgcNest.SetColumnProperty("GridNest","RmQtySh", "Caption", "RM Qty(Sh)")</string>
+        <string>Gui.Form2.gsgcNest.SetColumnProperty("GridNest","RmIssueSh", "Caption", "RM Issue(Sh)")</string>
+        <string>Gui.Form2.gsgcNest.SetColumnProperty("GridNest","ScrapCalc", "Caption", "Scrap Calc")</string>
+        <string>Gui.Form2.gsgcNest.SetColumnProperty("GridNest","RemainingOnHand", "Caption", "Remaining On Hand")</string>
+        <string>Gui.Form2.gsgcNest.SetColumnProperty("GridNest","Type", "VisibleIndex", 0)</string>
+        <string>Gui.Form2.gsgcNest.SetColumnProperty("GridNest","Part", "VisibleIndex", 1)</string>
+        <string>Gui.Form2.gsgcNest.SetColumnProperty("GridNest","Runs", "VisibleIndex", 2)</string>
+        <string>Gui.Form2.gsgcNest.SetColumnProperty("GridNest","PartWeight", "VisibleIndex", 3)</string>
+        <string>Gui.Form2.gsgcNest.SetColumnProperty("GridNest","Error", "VisibleIndex", 4)</string>
+        <string>Gui.Form2.gsgcNest.SetColumnProperty("GridNest","Remark", "VisibleIndex", 5)</string>
+        <string>Gui.Form2.gsgcNest.SetColumnProperty("GridNest","WO#", "VisibleIndex", 6)</string>
+        <string>Gui.Form2.gsgcNest.SetColumnProperty("GridNest","DoNotUse", "VisibleIndex", 14)</string>
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string>F.Intrinsic.Control.Label("Buildstyle_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4138_ProNest.gas",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	F.Intrinsic.Control.CallSub(Unload)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string>Program.Sub.Buildstyle.End</string>
+        <string />
+        <string>Program.Sub.cmdsupplyanddemand_click.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("cmdsupplyanddemand_click_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string>V.Local.sError.Declare(String)</string>
+        <string>V.Local.sPart.Declare(String)</string>
+        <string>V.Local.sRev.Declare(String)</string>
+        <string>V.Local.sParams.Declare(String)</string>
+        <string>V.Local.sLoc.Declare(String)</string>
+        <string>'Launch supply and demand for the Grid</string>
+        <string>F.Intrinsic.Control.If(V.Global.iSupplyDemand,!=,-1)</string>
+        <string>'	Gui.Form2.gsfgProNest.GetTextMatrix(1,V.Global.iSupplyDemand,V.Local.sPart)</string>
+        <string>	v.Local.sPart.Set(V.DataView.ProNest!Nest(V.Global.iSupplyDemand).Part!FieldVal)</string>
+        <string>'	Gui.Form2.gsgcNest.GetCellValue("GridNest", 1, V.Global.iSupplyDemand,V.Local.sPart)</string>
+        <string>F.Intrinsic.Control.Else</string>
+        <string>	'else for the Raw material</string>
+        <string>	V.Local.sPart.Set(V.Screen.Form2!txtRawMaterial.Text)</string>
+        <string>F.Intrinsic.Control.EndIf</string>
+        <string>V.Local.sLoc.Set(V.Screen.Form2!txtLoc.Text)</string>
+        <string>F.Intrinsic.String.Build("{0}!*!{1}",V.Local.sPart,V.Local.sLoc,V.Local.sParams)</string>
+        <string>F.Global.General.CallWrapperSync(300010,V.Local.sParams)</string>
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string>F.Intrinsic.Control.Label("cmdsupplyanddemand_click_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4138_ProNest.gas",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	F.Intrinsic.Control.CallSub(Unload)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string>Program.Sub.cmdsupplyanddemand_click.End</string>
+        <string />
+        <string>Program.Sub.cmdissuemat_click.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("cmdissuemat_click_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string>V.Local.sError.Declare(String)</string>
+        <string>V.Local.sItemData.Declare(String)</string>
+        <string>V.Local.sLineData.Declare(String)</string>
+        <string>V.Local.sFileName.Declare(String)</string>
+        <string>V.Local.sFileData.Declare(String)</string>
+        <string>V.Local.sSql.Declare(String)</string>
+        <string>V.Local.sPart.Declare(String)</string>
+        <string>V.Local.sWholePart.Declare(String)</string>
+        <string>V.Local.sQty.Declare(String)</string>
+        <string>V.Local.sWorkOrder.Declare(String)</string>
+        <string>V.Local.sIssueLine.Declare(String)</string>
+        <string>V.Local.sIssueItemData.Declare(String)</string>
+        <string>V.Local.sRet.Declare(String)</string>
+        <string>V.Local.iCount.Declare(Long)</string>
+        <string>V.Local.iRowCount.Declare(Long)</string>
+        <string>V.Local.bRet.Declare(Boolean)</string>
+        <string>V.Local.fIssueQty.Declare(Float)</string>
+        <string>V.Local.iScrap.Declare(Long)</string>
+        <string>V.Local.fScrap.Declare(Float)</string>
+        <string>V.Local.fTotalIssue.Declare(Float)</string>
+        <string>V.Local.sPart.Redim(0,1)</string>
+        <string>V.Local.sQty.Redim(0,1)</string>
+        <string>V.Global.sIssueFlag.Set("Y")</string>
+        <string>Gui.Form2.cmdIssueMat.Enabled(False)</string>
+        <string>Gui.Form2.cmdReverse.Enabled(False)</string>
+        <string>'CallWrapper 450100 - Issue Material to Job from File</string>
+        <string>'File Layout is Tab Delimited:</string>
+        <string>'File Name:  Z@@@IssMat.txt</string>
+        <string>'F.Intrinsic.String.Concat(V.Ambient.DblQuote,"L",V.Caller.CompanyCode,V.Caller.Terminal,"MOPEN.txt",V.Ambient.DblQuote,V.Local.sFileName)</string>
+        <string>F.Intrinsic.String.Build("{0}\L{1}{2}MOPEN.txt",V.Caller.FilesDir,v.Caller.CompanyCode,V.Caller.Terminal,V.Local.sFileName)</string>
+        <string>'Looping through UDT</string>
+        <string>F.Intrinsic.Control.For(V.Local.iCount,0,V.DataView.ProNest!Nest.RowCount--,1)</string>
+        <string>'F.Intrinsic.Control.For(V.Local.iCount,0,V.uGlobal.uProNest.UBound,1)</string>
+        <string>'	F.Intrinsic.String.RPad(V.uGlobal.uProNest(v.Local.iCount)!sRawMat," ",20,V.Local.sWholePart)</string>
+        <string>	F.Intrinsic.String.RPad(V.DataView.ProNest!Nest(v.local.iCount).RawMaterial!FieldVal," ",20,V.Local.sWholePart)</string>
+        <string>	F.Intrinsic.String.Left(V.Local.sWholePart,17,V.Local.sPart(0))</string>
+        <string>	F.Intrinsic.String.Right(V.Local.sWholePart,3,V.Local.sPart(1))</string>
+        <string>	'Work Order</string>
+        <string>'	F.Intrinsic.String.Split(V.uGlobal.uProNest(v.Local.iCount)!sWorkOrder,"-",V.Local.sWorkOrder)</string>
+        <string>	F.Intrinsic.String.Split(V.DataView.ProNest!Nest(v.local.iCount).WO#!FieldVal,"-",V.Local.sWorkOrder)</string>
+        <string>	'Get the amount to issue</string>
+        <string>'	F.Intrinsic.Math.Div(V.uGlobal.uProNest(V.Local.iCount)!fPartWeight,V.Global.fConsumption,V.Local.fIssueQty)</string>
+        <string>	F.Intrinsic.Math.Div(V.DataView.ProNest!Nest(v.local.iCount).PartWeight!FieldVal,V.Global.fConsumption,V.Local.fIssueQty)</string>
+        <string>'	F.Intrinsic.Math.Mult(V.uGlobal.uProNest(V.Local.iCount)!fQtyNest,V.Local.fIssueQty,V.Local.fIssueQty)</string>
+        <string>	F.Intrinsic.Math.Mult(V.DataView.ProNest!Nest(v.local.iCount).QtyNest!FieldVal,V.Local.fIssueQty,V.Local.fIssueQty)</string>
+        <string>	F.Intrinsic.Math.Round(V.Local.fIssueQty,4,V.Local.fIssueQty)</string>
+        <string>	'Get total issue qty to job</string>
+        <string>	F.Intrinsic.Math.Add(V.Local.fTotalIssue,V.Local.fIssueQty,V.Local.fTotalIssue)</string>
+        <string>	F.Intrinsic.String.Build("{0}{1}{2}{1}{3}{1}{4}",V.Local.sPart(0),",",V.Local.sPart(1).Trim,V.Global.sLoc,V.Local.fIssueQty,V.Local.sLineData)</string>
+        <string>	'check for item Master Records</string>
+        <string>'	F.Intrinsic.String.Build("Select Lot, Bin,Heat, Serial_Number from Item_Master where Part = '{0}' and Location = '{1}' and Quantity &gt;= '{2}'",V.uGlobal.uProNest(v.Local.iCount)!sRawMat,V.Global.sLoc,V.Local.fIssueQty,V.Local.sSql)</string>
+        <string>	F.Intrinsic.String.Build("Select Lot, Bin,Heat, Serial_Number from Item_Master where Part = '{0}' and Location = '{1}' and Quantity &gt;= '{2}'",V.DataView.ProNest!Nest(v.local.iCount).RawMaterial!FieldVal,V.Global.sLoc,V.Local.fIssueQty,V.Local.sSql)</string>
+        <string>	F.ODBC.Connection!Conx.OpenLocalRecordsetRO("rstItem",V.Local.sSql)</string>
+        <string>	'Create line</string>
+        <string>	F.Intrinsic.Control.If(V.ODBC.Conx!rstItem.EOF,=,False)</string>
+        <string>		F.Intrinsic.String.Build("{0}{1}{2}{1}{3}{1}{4}",V.ODBC.Conx!rstItem.FieldVal!Lot,",",V.ODBC.Conx!rstItem.FieldVal!Bin,V.ODBC.Conx!rstItem.FieldVal!Heat,V.ODBC.Conx!rstItem.FieldVal!Serial_Number,V.Local.sItemData)</string>
+        <string>		F.Intrinsic.String.Build("{0}{1}{2}{1}{3}{1}{4}",V.ODBC.Conx!rstItem.FieldVal!Lot,",",V.ODBC.Conx!rstItem.FieldVal!Bin,V.ODBC.Conx!rstItem.FieldVal!Heat,V.ODBC.Conx!rstItem.FieldVal!Serial_Number,V.Local.sIssueItemData)</string>
+        <string>	F.Intrinsic.Control.Else</string>
+        <string>		F.Intrinsic.String.Build("*!*ZDR*!*{0}*!*ZDR*!*{0}*!*ZDR*!*{0}*!*ZDR*!*{0}",",",V.Local.sItemData)</string>
+        <string>		F.Intrinsic.String.Build("{0}{0}{0}{0}",",",V.Local.sIssueItemData)</string>
+        <string>	F.Intrinsic.Control.EndIf</string>
+        <string>	F.ODBC.Conx!rstItem.Close</string>
+        <string>'	F.Intrinsic.String.Build("{0}{1}{2}{3}{1}{4}{1}{5}",V.Local.sLineData,",",V.Local.sItemdata,V.Local.sWorkOrder(0),V.Local.sWorkOrder(1),V.uGlobal.uProNest(v.Local.icount)!sWOSeq,V.Local.sItemData)</string>
+        <string>	F.Intrinsic.String.Build("{0}{1}{2}{3}{1}{4}{1}{5}",V.Local.sLineData,",",V.Local.sItemdata,V.Local.sWorkOrder(0),V.Local.sWorkOrder(1),V.DataView.ProNest!Nest(v.local.iCount).WOSeq!FieldVal,V.Local.sItemData)</string>
+        <string>	F.Intrinsic.String.Build("{0}{1}{2}",V.Local.sFileData,V.Local.sItemData,V.Ambient.NewLine,V.Local.sFileData)</string>
+        <string>F.Intrinsic.Control.Next(V.Local.iCount)</string>
+        <string>F.Intrinsic.File.String2File(V.Local.sFileName,V.Local.sFileData)</string>
+        <string>F.Intrinsic.String.Concat(V.Ambient.DblQuote,"L",V.Caller.CompanyCode,V.Caller.Terminal,"MOPEN.txt",V.Ambient.DblQuote,V.Local.sFileName)</string>
+        <string>F.Intrinsic.Task.LaunchGSSSync("WIR100","-C",V.Local.sFileName)</string>
+        <string>V.Local.sSql.Set("Select Text1 from Op_Header where ID = '401787'")</string>
+        <string>F.ODBC.Connection!Conx.OpenLocalRecordsetRO("rstGL",V.Local.sSql)</string>
+        <string>F.Intrinsic.Control.If(V.ODBC.Conx!rstGL.EOF,=,False)</string>
+        <string>	V.Local.sRet.Set(V.ODBC.Conx!rstGL.FieldValTrim!Text1)</string>
+        <string>F.Intrinsic.Control.EndIf</string>
+        <string>F.ODBC.Conx!rstGL.Close</string>
+        <string>'Get the Ceiling in order to calculate the actual scrap</string>
+        <string>F.Intrinsic.Math.Ceiling(V.Local.fTotalIssue,V.Local.iScrap)</string>
+        <string>'Subtract this value from the issue quantity to get the amount needed to get to the next whole number</string>
+        <string>F.Intrinsic.Math.Sub(V.Local.iScrap,V.Local.fTotalIssue,V.Local.fScrap)</string>
+        <string>'F.Intrinsic.String.Build("{0},{1},{2},{3},{4}",V.Local.sPart(0),V.Local.sPart(1).Trim,V.Global.sLoc,V.Local.fScrap,V.uGlobal.uProNest(0)!sJobName,V.Local.sIssueLine)</string>
+        <string>F.Intrinsic.String.Build("{0},{1},{2},{3},{4}",V.Local.sPart(0),V.Local.sPart(1).Trim,V.Global.sLoc,V.Local.fScrap,V.Screen.Form2!txtFlexSched.Text,V.Local.sIssueLine)</string>
+        <string>F.Intrinsic.String.Build("{0}{1},I,{2},0.00,Y",V.Local.sIssueLine,V.Local.sIssueItemData,V.Local.sRet(0).Trim,V.Local.sIssueLine)</string>
+        <string>F.Intrinsic.String.Build("{0}\{1}StandIss.txt",V.Caller.FilesDir,V.Caller.CompanyCode,V.Local.sFileName)</string>
+        <string>F.Intrinsic.File.String2File(V.Local.sFileName,V.Local.sIssueLine)</string>
+        <string>F.Intrinsic.String.Build("{0}StandIss.txt",V.Caller.CompanyCode,V.Local.sFileName)</string>
+        <string>F.Intrinsic.Task.LaunchGSSSync("WIR104","-C",V.Local.sFileName)</string>
+        <string>Gui.Form2.cmdReverseIssue.Enabled(True)</string>
+        <string>Gui.Form2.CmdExport.Enabled(True)</string>
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string>F.Intrinsic.Control.Label("cmdissuemat_click_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4138_ProNest.gas",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	F.Intrinsic.Control.CallSub(Unload)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string>Program.Sub.cmdissuemat_click.End</string>
+        <string />
+        <string>Program.Sub.cmdexport_click.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("cmdexport_click_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string />
+        <string>V.Local.sError.Declare(String)</string>
+        <string>V.Local.sSql.Declare(String)</string>
+        <string>v.Local.sMap.Declare(String)</string>
+        <string>V.Local.dDate.Declare(Date)</string>
+        <string>'V.Local.dDate.Set(V.Ambient.Date)</string>
+        <string>'</string>
+        <string>''Lock the Reverse Issue button since this Export signifies it is done.</string>
+        <string>'Gui.Form2.cmdReverseIssue.Enabled(False)</string>
+        <string>'F.Data.Dataview.SetValue("ProNest", "Nest", -1, "JobNumber", v.Screen.Form2!txtFlexSched.Text)</string>
+        <string>''Save to table</string>
+        <string>'v.Local.sMap.Set("JobNumber@!@ProNest_Num*!*Runs@!@Runs*!*PartWeight@!@PartWeight*!*QtyNest@!@QtyNest*!*RawMaterial@!@RawMaterial*!*PlateLength@!@PlateLen*!*PlateThick@!@PlateThick*!*PlateWeight@!@PlateWeight*!*PerUse@!@PercentUse")</string>
+        <string>'F.Intrinsic.String.Build("{0}*!*Type@!@Type*!*WO#@!@WorkOrder*!*RunQty@!@RunQty*!*RMQtyLb@!@RMQtyLbs*!*RMQtySh@!@RMQtySh*!*ScrapCalc@!@RMScrap*!*RemainingOnHand@!@RMQtyOnHand*!*RMIssueSh@!@RMIssue", v.Local.sMap, v.Local.sMap)</string>
+        <string>'F.Intrinsic.String.Build("{0}*!*WOSeq@!@WOSequence*!*Part@!@Component*!*Material@!@Mat", v.Local.sMap, v.Local.sMap)</string>
+        <string>''F.Data.DataTable.CreateFromSql("SaveNest", "conx", "Select * From GCG_4138_ProNest Where ProNest_Num = ''")</string>
+        <string>'F.Data.DataView.ToDataTable("ProNest", "Nest", "SaveNest")</string>
+        <string>''F.Data.DataTable.Merge("MergeNest", "SaveNest", False, 2)</string>
+        <string>'F.Data.DataTable.SaveToDB("SaveNest", "conx", "GCG_4138_ProNest", "JobNumber",256, v.Local.sMap) </string>
+        <string>'</string>
+        <string>'F.Intrinsic.UI.Msgbox("Export Complete!","Save Successful")</string>
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string>F.Intrinsic.Control.Label("cmdexport_click_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4138_ProNest.gas",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	F.Intrinsic.Control.CallSub(Unload)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string />
+        <string>Program.Sub.cmdexport_click.End</string>
+        <string />
+        <string>Program.Sub.cmdreverse_click.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("cmdreverse_click_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string>V.Local.sError.Declare(String)</string>
+        <string>V.Local.sSql.Declare(String)</string>
+        <string>V.Local.sJob.Declare(String)</string>
+        <string>'Update process boolean</string>
+        <string>V.Global.bProcess.Set(False)</string>
+        <string>V.Local.sJob.Set(V.Screen.Form2!txtFlexSched.Text)</string>
+        <string>F.Intrinsic.String.Split(V.Local.sJob,"-",V.Local.sJob)</string>
+        <string>V.Local.sJob.RedimPreserve(0,1)</string>
+        <string>Gui.Form2.cmdReverse.Enabled(False)</string>
+        <string>Gui.Form2.cmdIssueMat.Enabled(False)</string>
+        <string>Gui.Form2.CmdExport.Enabled(False)</string>
+        <string>F.Intrinsic.String.Build("Delete From Job_CT_FLX_Schd where Schedule = '{0}' and Schedule_Suffix = '{1}'",V.Local.sJob(0),V.Local.sJob(1),V.Local.sSql)</string>
+        <string>F.ODBC.Connection!Conx.Execute(V.Local.sSql)</string>
+        <string>Gui.Form2.cmdProcess.Enabled(True)</string>
+        <string>Gui.Form2.cmdRefresh.Enabled(True)</string>
+        <string>Gui.Form2.cmdRouterMaterial.Enabled(True)</string>
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string>F.Intrinsic.Control.Label("cmdreverse_click_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4138_ProNest.gas",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	F.Intrinsic.Control.CallSub(Unload)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string>Program.Sub.cmdreverse_click.End</string>
+        <string />
+        <string>Program.Sub.cmdreverseissue_click.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("cmdreverseissue_click_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string />
+        <string>V.Local.sError.Declare(String)</string>
+        <string />
+        <string>V.Local.sFileName.Declare(String)</string>
+        <string>V.Local.sReverseData.Declare(String)</string>
+        <string>V.Local.sDate.Declare(String)</string>
+        <string>V.Local.sTime.Declare(String)</string>
+        <string>V.Local.sWorkOrder.Declare(String)</string>
+        <string>V.Local.sHour.Declare(String)</string>
+        <string>V.Local.sMinutes.Declare(String)</string>
+        <string>V.Local.sSeconds.Declare(String)</string>
+        <string>V.Local.sIssueLine.Declare(String)</string>
+        <string>V.Local.sIssueItemData.Declare(String)</string>
+        <string>V.Local.sWholePart.Declare(String)</string>
+        <string>V.Local.fQty.Declare(Float)</string>
+        <string>V.Local.sRet.Declare(String)</string>
+        <string>V.Local.sSql.Declare(String)</string>
+        <string>V.Local.sLineData.Declare(String)</string>
+        <string>V.Local.sItemData.Declare(String)</string>
+        <string>V.Local.sPart.Declare(String)</string>
+        <string>V.Local.sFileData.Declare(String)</string>
+        <string>V.Local.iCount.Declare(Long)</string>
+        <string>V.Local.bRet.Declare(Boolean)</string>
+        <string>V.Local.fIssueQty.Declare(Float)</string>
+        <string>V.Local.fTotalIssue.Declare(Float)</string>
+        <string>V.Local.iScrap.Declare(Long)</string>
+        <string>V.Local.fScrap.Declare(Float)</string>
+        <string>V.Global.sIssueFlag.Set("N")</string>
+        <string>Gui.Form2.cmdReverseIssue.Enabled(False)</string>
+        <string>Gui.Form2.CmdExport.Enabled(False)</string>
+        <string>V.Local.sPart.Redim(0,1)</string>
+        <string>F.Intrinsic.String.Build("{0}\L{1}{2}MOPEN.txt",V.Caller.FilesDir,v.Caller.CompanyCode,V.Caller.Terminal,V.Local.sFileName)</string>
+        <string>F.Intrinsic.String.Format(V.Ambient.Date,"YYYYMMDD",V.Local.sDate)</string>
+        <string>'Undo the Issue Material</string>
+        <string>F.Intrinsic.Control.For(V.Local.iCount,0,V.DataView.ProNest!Nest.RowCount--,1)</string>
+        <string>	F.Intrinsic.String.RPad(V.DataView.ProNest!Nest(v.local.iCount).RawMaterial!FieldVal," ",20,V.Local.sWholePart)</string>
+        <string>	F.Intrinsic.String.Left(V.Local.sWholePart,17,V.Local.sPart(0))</string>
+        <string>	F.Intrinsic.String.Right(V.Local.sWholePart,3,V.Local.sPart(1))</string>
+        <string>	'Get the amount that was issued</string>
+        <string>	F.Intrinsic.Math.Div(V.DataView.ProNest!Nest(v.local.iCount).PartWeight!FieldValFloat,V.Global.fConsumption,V.Local.fIssueQty)</string>
+        <string>	F.Intrinsic.Math.Mult(V.DataView.ProNest!Nest(v.local.iCount).QtyNest!FieldValFloat,V.Local.fIssueQty,V.Local.fIssueQty)</string>
+        <string>	F.Intrinsic.Math.Round(V.Local.fIssueQty,4,V.Local.fIssueQty)</string>
+        <string>	'Get total quantity that's been issued</string>
+        <string>	F.Intrinsic.Math.Add(V.Local.fTotalIssue,V.Local.fIssueQty,V.Local.fTotalIssue)</string>
+        <string>	F.Intrinsic.Math.Mult(-1,V.Local.fIssueQty,V.Local.fQty)</string>
+        <string>	'Work Order</string>
+        <string>	F.Intrinsic.String.Split(V.DataView.ProNest!Nest(v.local.iCount).WO#!FieldVal,"-",V.Local.sWorkOrder)</string>
+        <string>	F.Intrinsic.String.Build("{0}{1}{2}{1}{3}{1}{4}",V.Local.sPart(0),",",V.Local.sPart(1).Trim,V.Global.sLoc,V.Local.fQty,V.Local.sLineData)</string>
+        <string>	'check for item Master Records</string>
+        <string>	F.Intrinsic.String.Build("Select Lot, Bin,Heat, Serial_Number from Item_Master where Part = '{0}' and Location = '{1}' and Quantity &gt;= '{2}'",V.DataView.ProNest!Nest(v.local.iCount).RawMaterial!FieldVal,V.Global.sLoc,V.DataView.ProNest!Nest(v.local.iCount).RmQtyLb!FieldVal,V.Local.sSql)</string>
+        <string>	F.ODBC.Connection!Conx.OpenLocalRecordsetRO("rstItem",V.Local.sSql)</string>
+        <string>	'Create line</string>
+        <string>	F.Intrinsic.Control.If(V.ODBC.Conx!rstItem.EOF,=,False)</string>
+        <string>		F.Intrinsic.String.Build("{0}{1}{2}{1}{3}{1}{4}",V.ODBC.Conx!rstItem.FieldVal!Lot,",",V.ODBC.Conx!rstItem.FieldVal!Bin,V.ODBC.Conx!rstItem.FieldVal!Heat,V.ODBC.Conx!rstItem.FieldVal!Serial_Number,V.Local.sItemData)</string>
+        <string>		F.Intrinsic.String.Build("{0}{1}{2}{1}{3}{1}{4}",V.ODBC.Conx!rstItem.FieldVal!Lot,",",V.ODBC.Conx!rstItem.FieldVal!Bin,V.ODBC.Conx!rstItem.FieldVal!Heat,V.ODBC.Conx!rstItem.FieldVal!Serial_Number,V.Local.sIssueItemData)</string>
+        <string>	F.Intrinsic.Control.Else</string>
+        <string>		F.Intrinsic.String.Build("*!*ZDR*!*{0}*!*ZDR*!*{0}*!*ZDR*!*{0}*!*ZDR*!*{0}",",",V.Local.sItemData)</string>
+        <string>		F.Intrinsic.String.Build("{0}{0}{0}{0}",",",V.Local.sIssueItemData)</string>
+        <string>	F.Intrinsic.Control.EndIf</string>
+        <string>	F.ODBC.Conx!rstItem.Close</string>
+        <string>	F.Intrinsic.String.Build("{0}{1}{2}{3}{1}{4}{1}{5}",V.Local.sLineData,",",V.Local.sItemdata,V.Local.sWorkOrder(0),V.Local.sWorkOrder(1),V.DataView.ProNest!Nest(v.local.iCount).WOSeq!FieldVal,V.Local.sItemData)</string>
+        <string>	F.Intrinsic.String.Build("{0}{1}{2}",V.Local.sFileData,V.Local.sItemData,V.Ambient.NewLine,V.Local.sFileData)</string>
+        <string>F.Intrinsic.Control.Next(V.Local.iCount)</string>
+        <string>F.Intrinsic.File.String2File(V.Local.sFileName,V.Local.sFileData)</string>
+        <string>F.Intrinsic.String.Concat(V.Ambient.DblQuote,"L",V.Caller.CompanyCode,V.Caller.Terminal,"MOPEN.txt",V.Ambient.DblQuote,V.Local.sFileName)</string>
+        <string>F.Intrinsic.Task.LaunchGSSSync("WIR100","-C",V.Local.sFileName)</string>
+        <string>	'Undo the Stand Alone Issue</string>
+        <string>F.Intrinsic.String.RPad(V.DataView.ProNest!Nest(0).RawMaterial!FieldVal," ",20,V.Local.sWholePart)</string>
+        <string>F.Intrinsic.String.Left(V.Local.sWholePart,17,V.Local.sPart(0))</string>
+        <string>F.Intrinsic.String.Right(V.Local.sWholePart,3,V.Local.sPart(1))</string>
+        <string>F.Intrinsic.String.Build("Select GL_Account from Inventory_Hist Where Part = '{0}' and Code_Transaction = 'A50' and TransAction_Desc = '{1}'",V.DataView.ProNest!Nest(0).RawMaterial!FieldVal,v.Screen.Form2!txtFlexSched.Text,V.Local.sSql)</string>
+        <string>F.ODBC.Connection!Conx.ExecuteAndReturn(V.Local.sSql,V.Local.sRet)</string>
+        <string>F.Intrinsic.String.Split(V.Local.sRet,"*!*",V.Local.sRet)</string>
+        <string>'Get the Ceiling in order to calculate the actual scrap</string>
+        <string>F.Intrinsic.Math.Ceiling(V.Local.fTotalIssue,V.Local.iScrap)</string>
+        <string>'Subtract this value from the issue quantity to get the amount needed to get to the next whole number</string>
+        <string>F.Intrinsic.Math.Sub(V.Local.iScrap,V.Local.fTotalIssue,V.Local.fScrap)</string>
+        <string>F.Intrinsic.String.Build("{0},{1},{2},{3},{4}",V.Local.sPart(0),V.Local.sPart(1).Trim,V.Global.sLoc,V.Local.fScrap,v.Screen.Form2!txtFlexSched.Text,V.Local.sIssueLine)</string>
+        <string>F.Intrinsic.String.Build("{0}{1},R,{2},0.00,Y",V.Local.sIssueLine,V.Local.sIssueItemData,V.Local.sRet(0).Trim,V.Local.sIssueLine)</string>
+        <string>'check to see if item master part</string>
+        <string>F.Intrinsic.String.Build("Select Lot, Bin,Heat,Serial_Number from Item_History where Part = '{0}' and Date_History = '{1}' and Code_Transaction = 'A50' and Reference = '{2}'",V.DataView.ProNest!Nest(0).RawMaterial!FieldVal,V.Local.sDate,v.Screen.Form2!txtFlexSched.Text,V.Local.sSql)</string>
+        <string>F.ODBC.Connection!Conx.OpenLocalRecordsetRO("rstItem",V.Local.sSql)</string>
+        <string>F.Intrinsic.Control.If(V.ODBC.Conx!rstItem.EOF,=,False)</string>
+        <string>	F.Intrinsic.String.Build("{0}{1}{2}{1}{3}{1}{4}",V.ODBC.Conx!rstItem.FieldVal!Lot,",",V.ODBC.Conx!rstItem.FieldVal!Bin,V.ODBC.Conx!rstItem.FieldVal!Heat,V.ODBC.Conx!rstItem.FieldVal!Serial_Number,V.Local.sIssueItemData)</string>
+        <string>F.Intrinsic.Control.Else</string>
+        <string>	F.Intrinsic.String.Build("{0}{0}{0}{0}",",",V.Local.sIssueItemData)</string>
+        <string>F.Intrinsic.Control.EndIf</string>
+        <string>F.ODBC.Conx!rstItem.Close</string>
+        <string>F.Intrinsic.String.Build("{0}\{1}StandIss.txt",V.Caller.FilesDir,V.Caller.CompanyCode,V.Local.sFileName)</string>
+        <string>F.Intrinsic.File.String2File(V.Local.sFileName,V.Local.sIssueLine)</string>
+        <string>F.Intrinsic.String.Build("{0}StandIss.txt",V.Caller.CompanyCode,V.Local.sFileName)</string>
+        <string>F.Intrinsic.Task.LaunchGSSSync("WIR104","-C",V.Local.sFileName)</string>
+        <string>Gui.Form2.cmdIssueMat.Enabled(True)</string>
+        <string>Gui.Form2.cmdReverse.Enabled(True)</string>
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string>F.Intrinsic.Control.Label("cmdreverseissue_click_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4138_ProNest.gas",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	F.Intrinsic.Control.CallSub(Unload)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string>Program.Sub.cmdreverseissue_click.End</string>
+        <string />
+        <string>Program.Sub.cmdvalidate_click.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("cmdvalidate_click_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string>V.Local.sError.Declare(String)</string>
+        <string>V.Local.irows.Declare(Long)</string>
+        <string>V.Local.i.Declare(Long)</string>
+        <string>V.Local.sraw.Declare(String)</string>
+        <string>V.Local.ssql.Declare(String)</string>
+        <string>V.Local.spart.Declare(String)</string>
+        <string>V.Local.swo.Declare(String)</string>
+        <string>V.Local.ftotalrunqty.Declare(Float,0)</string>
+        <string>V.Local.ftotalRMqtylb.Declare(Float,0)</string>
+        <string>V.Local.ftotalRMqtySH.Declare(Float,0)</string>
+        <string>V.Local.fRMtoIssuesh.Declare(Float,0)</string>
+        <string>V.Local.ftotalRMtoIssuesh.Declare(Float,0)</string>
+        <string>V.Local.ftotalscrap.Declare(Float,0)</string>
+        <string>V.Local.fonhandqty.Declare(Float,0)</string>
+        <string>V.Local.spronestrunQty.Declare(String)</string>
+        <string>V.Local.bpass.Declare(Boolean)</string>
+        <string>V.Local.srunqtysql.Declare(String)</string>
+        <string>V.Local.frunqty.Declare(Float,0)</string>
+        <string>V.Local.ftotalonhandqty.Declare(Float,0)</string>
+        <string>V.Local.frunqtycalc.Declare(Float,0)</string>
+        <string>V.Local.frunnumber.Declare(Float,0)</string>
+        <string>V.Local.irawcount.Declare(Long)</string>
+        <string />
+        <string>F.Intrinsic.Control.If(V.Global.iErrorCount,&gt;,0)</string>
+        <string>	F.Intrinsic.UI.Msgbox("Please Clear the Current Errors!","Cancel Validate")</string>
+        <string>	F.Intrinsic.Control.ExitSub</string>
+        <string>F.Intrinsic.Control.EndIf</string>
+        <string>'Update validate flag for error handling</string>
+        <string>V.Global.bValidate.Set(True)</string>
+        <string>Gui.Form2.cmdValidate.Enabled(False)</string>
+        <string>	'loop through the grid</string>
+        <string>Gui.Form2..Enabled(False)</string>
+        <string>Gui.Form2.gsgcNest.Visible(False)</string>
+        <string>F.Intrinsic.Control.For(V.Local.i,0,V.DataView.ProNest!Nest.RowCount--,1)</string>
+        <string>	'get the component part</string>
+        <string>	F.Intrinsic.Control.CallSub(Error_componjob,"Part",V.DataView.ProNest!Nest(v.local.i).Part!FieldVal,"Row",V.Local.i)</string>
+        <string>	'this is a test query for data</string>
+        <string>	'get the work order information</string>
+        <string>	F.Intrinsic.String.Build("SELECT * FROM GCG_4138_WorkOrder WHERE PART = '{0}' AND QTY_ORDER &lt;= '{1}' ORDER BY DATE_DUE asc",V.DataView.ProNest!Nest(v.local.i).Part!FieldVal,V.DataView.ProNest!Nest(v.local.i).QtyNest!FieldValFloat,V.Local.ssql)</string>
+        <string>	F.ODBC.Connection!conx.OpenLocalRecordsetRO("rst",V.Local.ssql)</string>
+        <string>	F.Intrinsic.Control.If(V.ODBC.Conx!rst.EOF,&lt;&gt;,True)</string>
+        <string>		F.Intrinsic.String.Build("{0}-{1}",V.ODBC.Conx!rst.FieldValTrim!JOB,V.ODBC.Conx!rst.FieldValTrim!SUFFIX,V.Local.swo)</string>
+        <string>		'set the wo</string>
+        <string>		F.Data.DataView.SetValue("ProNest", "Nest", v.Local.i, "WO#", V.Local.swo,"RunQty", V.ODBC.Conx!rst.FieldValfloat!QTY_ORDEr)</string>
+        <string>		'set the Run qty</string>
+        <string>		F.Intrinsic.Math.Add(V.Local.ftotalrunqty,V.odbc.Conx!rst.FieldValFloat!QTY_ORDER,V.Local.ftotalrunqty)</string>
+        <string>		'Check if Global Shop qty exceeds ProNest quantity</string>
+        <string>		F.Intrinsic.Control.CallSub(Error_runqtymismatch,"Row",V.Local.i)</string>
+        <string>		'RM Qty (lbs)</string>
+        <string>		F.Intrinsic.Math.Mult(V.ODBC.Conx!rst.FieldValFloat!HOURS_ESTIMATED,V.Global.fConsumption,V.Local.frunqtycalc)</string>
+        <string>		F.Data.DataView.SetValue("ProNest", "Nest", v.Local.i, "RMQtyLb", V.Local.frunqtycalc)</string>
+        <string>		F.Intrinsic.Math.Add(V.Local.ftotalRMqtylb,V.Local.frunqtycalc,V.Local.ftotalRMqtylb)</string>
+        <string>		'RM Qty (Sh)</string>
+        <string>		F.Data.DataView.SetValue("ProNest", "Nest", v.Local.i, "RMQtySh", V.ODBC.Conx!rst.FieldValFloat!HOURS_ESTIMATED)</string>
+        <string>		F.Intrinsic.Math.Add(V.Local.ftotalRMqtysh,V.ODBC.Conx!rst.FieldValFloat!HOURS_ESTIMATED,V.Local.ftotalRMqtySH)</string>
+        <string>		'get the rm to issue</string>
+        <string>		V.Local.fRMtoIssuesh.Set(V.Local.ftotalRMqtySH)</string>
+        <string>		F.Intrinsic.Math.Ceiling(V.Local.fRMtoIssuesh,V.Local.fRMtoIssuesh)</string>
+        <string>		F.Data.DataView.SetValue("ProNest", "Nest", v.Local.i, "RmIssueSh", V.Local.fRMtoIssuesh,"ScrapCalc", "0")</string>
+        <string>		'Initialize all rows of scrap to zero</string>
+        <string>		'subtract the To Issue from the total quantity</string>
+        <string>		F.Intrinsic.Math.Sub(V.Global.fTotalOnHand,V.Local.fRMtoIssuesh,V.Local.ftotalonhandqty)</string>
+        <string>		F.Data.DataView.SetValue("ProNest", "Nest", v.Local.i, "RemainingOnHand", V.Local.ftotalonhandqty)</string>
+        <string>		'Check Remaining qty on hand</string>
+        <string>		F.Intrinsic.Control.CallSub(Error_insufficientonhand,"Row",V.Local.i,"RunTotal",V.Local.ftotalonhandqty)</string>
+        <string>	F.Intrinsic.Control.Else</string>
+        <string>		F.Intrinsic.String.Build("SELECT * FROM GCG_4138_WorkOrder WHERE PART = '{0}' ORDER BY DATE_DUE desc",V.DataView.ProNest!Nest(v.local.i).Part!FieldVal,V.Local.ssql)</string>
+        <string>		'Lets call this one error since we're going to grab one that is larger than the Nest Quantity and this will throw an error.</string>
+        <string>		F.ODBC.Connection!conx.OpenLocalRecordsetRO("rstError",V.Local.ssql)</string>
+        <string>		'Make sure one exists, if not then this row will remain blank</string>
+        <string>		F.Intrinsic.Control.If(V.ODBC.Conx!rstError.EOF,&lt;&gt;,True)</string>
+        <string>			F.Intrinsic.String.Build("{0}-{1}",V.ODBC.Conx!rstError.FieldValTrim!JOB,V.ODBC.Conx!rstError.FieldValTrim!SUFFIX,V.Local.swo)</string>
+        <string>			'set the wo</string>
+        <string>			F.Data.DataView.SetValue("ProNest", "Nest", v.Local.i, "WO#", V.Local.swo)</string>
+        <string>			'set the Run qty</string>
+        <string>			F.Data.DataView.SetValue("ProNest", "Nest", v.Local.i, "Runs", V.ODBC.Conx!rstError.FieldValfloat!QTY_ORDER)</string>
+        <string>			F.Intrinsic.Math.Add(V.Local.ftotalrunqty,V.odbc.Conx!rstError.FieldValFloat!QTY_ORDER,V.Local.ftotalrunqty)</string>
+        <string>			'Check if Global Shop qty exceeds ProNest quantity</string>
+        <string>			F.Intrinsic.Control.CallSub(Error_runqtymismatch,"Row",V.Local.i)</string>
+        <string>			'RM Qty (lbs)</string>
+        <string>			F.Intrinsic.Math.Mult(V.ODBC.Conx!rstError.FieldValFloat!HOURS_ESTIMATED,V.Global.fConsumption,V.Local.frunqtycalc)</string>
+        <string>			F.Data.DataView.SetValue("ProNest", "Nest", v.Local.i, "RMQtyLb", V.Local.frunqtycalc)</string>
+        <string>			F.Intrinsic.Math.Add(V.Local.ftotalRMqtylb,V.Local.frunqtycalc,V.Local.ftotalRMqtylb)</string>
+        <string>			'RM Qty (Sh)</string>
+        <string>			F.Data.DataView.SetValue("ProNest", "Nest", v.Local.i, "RMQtySh", V.ODBC.Conx!rstError.FieldValFloat!HOURS_ESTIMATED)</string>
+        <string>			F.Intrinsic.Math.Add(V.Local.ftotalRMqtysh,V.ODBC.Conx!rstError.FieldValFloat!HOURS_ESTIMATED,V.Local.ftotalRMqtySH)</string>
+        <string>			'get the rm to issue</string>
+        <string>			V.Local.fRMtoIssuesh.Set(V.Local.ftotalRMqtySH)</string>
+        <string>			F.Intrinsic.Math.Round(V.Local.fRMtoIssuesh,0,V.Local.fRMtoIssuesh)</string>
+        <string>			F.Data.DataView.SetValue("ProNest", "Nest", v.Local.i, "RmIssueSh", V.Local.fRMtoIssuesh)</string>
+        <string>			'Initialize all rows of scrap to zero</string>
+        <string>			F.Data.DataView.SetValue("ProNest", "Nest", v.Local.i, "ScrapCalc", "0")</string>
+        <string>			'subtract the To Issue from the total quantity</string>
+        <string>			F.Intrinsic.Math.Sub(V.Global.fTotalOnHand,V.Local.fRMtoIssuesh,V.Local.ftotalonhandqty)</string>
+        <string>			F.Data.DataView.SetValue("ProNest", "Nest", v.Local.i, "RemainingOnHand", V.Local.ftotalonhandqty)</string>
+        <string>			'Check Remaining qty on hand</string>
+        <string>			F.Intrinsic.Control.CallSub(Error_insufficientonhand,"Row",V.Local.i,"RunTotal",V.Local.ftotalonhandqty)</string>
+        <string>		'No WO found</string>
+        <string>		F.Intrinsic.Control.Else</string>
+        <string>			F.Data.DataView.SetValue("ProNest", "Nest", v.Local.i, "ScrapCalc", "0")</string>
+        <string>			F.Intrinsic.Control.CallSub(Error_wonotfound,"Found",False,"Row",V.Local.i)</string>
+        <string>		F.Intrinsic.Control.EndIf</string>
+        <string>		F.ODBC.conX!rstError.Close</string>
+        <string>	F.Intrinsic.Control.EndIf</string>
+        <string>	'close connection</string>
+        <string>	F.ODBC.Conx!rst.close</string>
+        <string>	'clear the local variables</string>
+        <string>	V.Local.fonhandqty.Set(0)</string>
+        <string>	V.Local.fRMtoIssuesh.Set(0)</string>
+        <string>	V.Local.frunqty.Set(0)</string>
+        <string>	V.Local.fonhandqty.Set(0)</string>
+        <string>	V.Local.frunqtycalc.Set(0)</string>
+        <string>	V.Local.spart.Set("")</string>
+        <string>	V.Local.swo.Set("")</string>
+        <string>F.Intrinsic.Control.Next(V.Local.i)</string>
+        <string>''set the totals in the textboxes</string>
+        <string>Gui.Form2.txtTotalRunGSS.Text(V.Local.ftotalrunqty)</string>
+        <string>Gui.Form2.txtTotalLbsGSS.Text(V.Local.ftotalRMqtylb.Format#0.00)</string>
+        <string>Gui.Form2.txtTotal.Text(V.Local.ftotalRMqtySH.Format#0.00)</string>
+        <string>'Set Total To Issue (Sh) to the value of Total rounded</string>
+        <string>F.Intrinsic.Math.Round(V.Local.ftotalRMqtySH,0,V.Local.ftotalRMtoIssuesh)</string>
+        <string>Gui.Form2.txtToIssue.Text(V.Local.ftotalRMtoIssuesh)</string>
+        <string>'Set textbox scrap, and set the final row in the grid with the scrap value</string>
+        <string>Gui.Form2.txtToScrap.Text(V.Global.fScrap)</string>
+        <string>F.Data.DataView.SetValue("ProNest", "Nest", V.DataView.ProNest!Nest.RowCount--, "ScrapCalc", V.Global.fScrap)</string>
+        <string>'Check to make sure the Total Run Qty ProNext = Total Run Quantity Global Shop Solutions</string>
+        <string>F.Intrinsic.Control.For(V.Local.i,0,V.DataView.ProNest!Nest.RowCount--,1)</string>
+        <string>	'Check and set for each line</string>
+        <string>	F.Intrinsic.Control.CallSub(Error_totalrunmismatch,"Row",V.Local.i)</string>
+        <string>F.Intrinsic.Control.Next(V.Local.i)</string>
+        <string>Gui.Form2.gsgcNest.Visible(True)</string>
+        <string>'iftheerrorcounteris0enabletheprocessbutton</string>
+        <string>F.Intrinsic.Control.If(V.Global.iErrorCount,=,0)</string>
+        <string>'	Gui.Form2.cmdProcess.Enabled(True)</string>
+        <string>	gui.Form2.cmdUpMaterial.Enabled(True)</string>
+        <string>F.Intrinsic.Control.EndIf</string>
+        <string>Gui.Form2..Enabled(True)</string>
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string>F.Intrinsic.Control.Label("cmdvalidate_click_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4138_ProNest.gas",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	F.Intrinsic.Control.CallSub(Unload)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string>Program.Sub.cmdvalidate_click.End</string>
+        <string />
+        <string>Program.Sub.cmdrefresh_click.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("cmdrefresh_click_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string>V.Local.sError.Declare(String)</string>
+        <string>V.Local.iRowTotal.Declare(Long)</string>
+        <string>V.Local.sComponent.Declare(String)</string>
+        <string>V.Local.sWO.Declare(String)</string>
+        <string>V.Local.iC.Declare(Long)</string>
+        <string>V.Local.fRun.Declare(Float)</string>
+        <string>'Refresh will be used to re-check for errors</string>
+        <string>'Get the number of rows in the grid</string>
+        <string>'For each row in the grid check for all errors again</string>
+        <string>Gui.Form2.gsgcNest.Visible(False)</string>
+        <string>F.Intrinsic.Control.For(V.Local.iC,0,V.DataView.ProNest!Nest.RowCount--,1)</string>
+        <string>	'Check if comp has record in Global Shop</string>
+        <string>	F.Intrinsic.Control.CallSub(Error_missingcomp,"Part",V.DataView.ProNest!Nest(v.local.iC).Part!FieldVal,"Row",V.Local.iC)</string>
+        <string>	'Check Raw material is in Global Shop and matches ProNest</string>
+        <string>	F.Intrinsic.Control.CallSub(Error_mismatchraw,"Row",V.Local.iC)</string>
+        <string>	'Check that there is a consumption value</string>
+        <string>	F.Intrinsic.Control.CallSub(Error_zeroconsump,"Row",V.Local.iC)</string>
+        <string>	'Check if Validate has been run</string>
+        <string>	F.Intrinsic.Control.If(V.Global.bValidate,=,True)</string>
+        <string>		'Get the component part</string>
+        <string>		V.Local.sComponent.Set(V.DataView.ProNest!Nest(v.local.iC).Part!FieldVal)</string>
+        <string>		'Check component part</string>
+        <string>		F.Intrinsic.Control.CallSub(Error_componjob,"Part",V.DataView.ProNest!Nest(v.local.iC).Part!FieldVal,"Row",V.Local.iC)</string>
+        <string>		'Get Running Total for the row</string>
+        <string>		V.Local.fRun.Set(V.DataView.ProNest!Nest(v.local.iC).RemainingOnHand!FieldVal)</string>
+        <string>		'Check On Hand Qty</string>
+        <string>		F.Intrinsic.Control.CallSub(Error_insufficientonhand,"Row",V.Local.iC,"RunTotal",V.Local.fRun)</string>
+        <string>		'Check that run qty for WO matches</string>
+        <string>		F.Intrinsic.Control.CallSub(Error_runqtymismatch,"Row",V.Local.iC)</string>
+        <string>		'Check that the totals match</string>
+        <string>		F.Intrinsic.Control.CallSub(Error_totalrunmismatch,"Row",V.Local.iC)</string>
+        <string>		'Check to see if there's a WO now</string>
+        <string>		V.Local.sWO.Set(V.DataView.ProNest!Nest(v.local.iC).WO#!FieldVal)</string>
+        <string>		F.Intrinsic.Control.If(V.Local.sWO.Trim,&lt;&gt;,"")</string>
+        <string>			F.Intrinsic.Control.CallSub(Error_wonotfound,"Found",True,"Row",V.Local.iC)</string>
+        <string>		F.Intrinsic.Control.Else</string>
+        <string>			F.Intrinsic.Control.CallSub(Error_wonotfound,"Found",False,"Row",V.Local.iC)</string>
+        <string>		F.Intrinsic.Control.EndIf</string>
+        <string>	F.Intrinsic.Control.EndIf</string>
+        <string>F.Intrinsic.Control.Next(V.Local.iC)</string>
+        <string>'iftheerrorcounteris0enabletheprocessbutton</string>
+        <string>F.Intrinsic.Control.If(V.Global.iErrorCount,=,0)</string>
+        <string>	Gui.Form2.cmdProcess.Enabled(True)</string>
+        <string>F.Intrinsic.Control.EndIf</string>
+        <string>Gui.Form2.gsgcNest.Visible(True)</string>
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string>F.Intrinsic.Control.Label("cmdrefresh_click_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4138_ProNest.gas",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	F.Intrinsic.Control.CallSub(Unload)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string>Program.Sub.cmdrefresh_click.End</string>
+        <string />
+        <string>Program.Sub.gsfgpronest_commandclick.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("gsfgpronest_commandclick_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string>V.Local.sError.Declare(String)</string>
+        <string>V.Local.sBrowser.Declare(String)</string>
+        <string>V.Local.sFG.Declare(String)</string>
+        <string>V.Local.sColumnTitles.Declare(String)</string>
+        <string>v.Local.sWO.Declare(String)</string>
+        <string>V.Local.iColumnWidths.Declare(Long)</string>
+        <string>V.Local.iCount.Declare(Long)</string>
+        <string>v.Local.iRet.Declare(Long)</string>
+        <string>V.Local.sRet.Declare(String)</string>
+        <string>V.Local.sSQL.Declare(String)</string>
+        <string>V.Local.sParams.Declare(String)</string>
+        <string />
+        <string>F.Intrinsic.Control.If(V.Global.bProcess,&lt;&gt;,True)</string>
+        <string>	'Disable Screen</string>
+        <string>	Gui.Form2..Enabled(False)</string>
+        <string>	F.Intrinsic.Control.If(v.Args.Column, =, "Remark")</string>
+        <string>		'Get finished good for the row</string>
+        <string>		v.Local.sFG.Set(V.DataTable.ProNest(v.Args.RowIndex).Part!FieldValTrim)</string>
+        <string>		F.Intrinsic.UI.SetBrowserHotTypeAhead(True)</string>
+        <string>		'Set Column Titles for Browser</string>
+        <string>		F.Intrinsic.String.Split("Job*!*Suffix*!*Qty*!*Customer","*!*",V.Local.sColumnTitles)</string>
+        <string>		F.Intrinsic.String.Split("1000*!*1000*!*1000*!*1500","*!*",V.Local.iColumnWidths)</string>
+        <string>		F.Intrinsic.String.Build("Select Job, Suffix, Qty_Order,Customer from GCG_4138_WorkOrder where Part = '{0}'",V.Local.sFG,V.Local.sSQL)</string>
+        <string>		F.Intrinsic.UI.MiniBrowser("Select Job","conx",V.Local.sSQL,V.Local.sColumnTitles,V.Local.iColumnWidths,V.Local.sRet)</string>
+        <string>		F.Intrinsic.Control.If(V.Local.sRet,&lt;&gt;,"***CANCEL***")</string>
+        <string>			'Split return string to get the Work Order</string>
+        <string>			F.Intrinsic.String.Split(V.Local.sRet,"*!*",V.Local.sRet)</string>
+        <string>			F.Intrinsic.String.Build("{0}-{1}",V.Local.sRet(0).Trim,V.Local.sRet(1).Trim,V.Local.sRet(0))</string>
+        <string>			'Update to WO selected</string>
+        <string>			F.Data.DataTable.SetValue("ProNest", v.Args.RowIndex, "WO#", V.Local.sRet(0))</string>
+        <string>			'Update WO information</string>
+        <string>			F.Intrinsic.Control.CallSub(Updatewo,"Row",v.Args.RowIndex)</string>
+        <string>			'Update Error</string>
+        <string>			F.Intrinsic.Control.CallSub(Error_wonotfound,"Found",True,"Row",v.Args.RowHandle)</string>
+        <string>			'Enable Screen</string>
+        <string>'			Gui.Form2.gsgcNest.SetColumnProperty("GridNest","Remark", "CellBackColor", v.Color.SEC-GSS-12)</string>
+        <string>		F.Intrinsic.Control.EndIf</string>
+        <string>	F.Intrinsic.Control.ElseIf(v.Args.Column, =, "WO#")</string>
+        <string>		'Get the WO Number selected</string>
+        <string>'		Gui.Form2.gsfgProNest.GetTextMatrix(6,V.Args.MouseRow,V.Local.sWO)</string>
+        <string>		v.Local.sWo.Set(V.DataTable.ProNest(v.Args.RowIndex).WO#!FieldValTrim)</string>
+        <string>		'Check to make sure there is actually a WO</string>
+        <string>		F.Intrinsic.Control.If(V.Local.sWO.Trim,&lt;&gt;,"")</string>
+        <string>			'Split WO at - since it is combined in the grid</string>
+        <string>			F.Intrinsic.String.Split(V.Local.sWO,"-",V.Local.sWO)</string>
+        <string>			'Build Parameter string</string>
+        <string>			F.Intrinsic.String.Build("{0}!*!{1}!*!O",V.Local.sWO(0),V.Local.sWO(1),V.Local.sParams)</string>
+        <string>			F.Global.General.CallWrapperSync(2009,V.Local.sParams)</string>
+        <string>			'Disable the screen until I've finished updating the data</string>
+        <string>			Gui.Form2..Enabled(False)</string>
+        <string>			'Update WO information and the rest of the screen</string>
+        <string>			F.Intrinsic.Control.CallSub(Updatewo,"Row",V.Args.RowIndex)</string>
+        <string>'			Gui.Form2.gsgcNest.SetColumnProperty("GridNest","WO#", "CellForeColor", v.Color.SEC-GSS-02)</string>
+        <string>		F.Intrinsic.Control.EndIf</string>
+        <string>	f.Intrinsic.Control.ElseIf(v.Args.Column, =, "Part")</string>
+        <string>				'set Global Var for Supply and Demand</string>
+        <string>		F.Intrinsic.Control.If(V.Global.iSupplyDemand,!=,-1)</string>
+        <string>'			Gui.Form2.gsfgProNest.GSGOverrideProperty(1,V.Global.iSupplyDemand,"BackColor",V.Color.White)</string>
+        <string>			Gui.Form2.gsgcNest.SetCellAppearance("GridNest", 3, V.Global.iSupplyDemand, "backcolor", V.Color.White)</string>
+        <string>			V.Global.iSupplyDemand.Set(V.Args.RowHandle)</string>
+        <string>'			Gui.Form2.gsfgProNest.GSGOverrideProperty(1,V.Args.MouseRow,"BackColor",V.Color.SEC-GSS-01)</string>
+        <string>			Gui.Form2.gsgcNest.SetCellAppearance("GridNest", 3, v.Args.RowHandle, "backcolor", V.Color.White)</string>
+        <string>		F.Intrinsic.Control.Else</string>
+        <string>			Gui.Form2.txtRawMaterial.BackColor(V.Color.White)</string>
+        <string>			V.Global.iSupplyDemand.Set(v.Args.RowHandle)</string>
+        <string>'			Gui.Form2.gsfgProNest.GSGOverrideProperty(1,V.Args.MouseRow,"BackColor",V.Color.SEC-GSS-01)</string>
+        <string>			Gui.Form2.gsgcNest.SetCellAppearance("GridNest", 3, v.Args.RowHandle, "backcolor", V.Color.SEC-GSS-01)</string>
+        <string>		F.Intrinsic.Control.EndIf</string>
+        <string>	f.Intrinsic.Control.EndIf</string>
+        <string>	Gui.Form2..Enabled(True)</string>
+        <string>	Gui.Form2.gsgcNest.SetCellAppearance("GridNest", 17, v.Args.RowHandle, "Forecolor", v.Color.SEC-GSS-02)</string>
+        <string />
+        <string>	Gui.Form2.cmdRefresh.SetFocus</string>
+        <string>F.Intrinsic.Control.EndIf</string>
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string>F.Intrinsic.Control.Label("gsfgpronest_commandclick_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4138_ProNest.gas",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	F.Intrinsic.Control.CallSub(Unload)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string>Program.Sub.gsfgpronest_commandclick.End</string>
+        <string />
+        <string>Program.Sub.UpdateWO.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("UpdateWO_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string>V.Local.sError.Declare(String)</string>
+        <string>V.Local.sWO.Declare(String)</string>
+        <string>V.Local.sSQL.Declare(String)</string>
+        <string>V.Local.sRet.Declare(String)</string>
+        <string>V.Local.fReturn.Declare(Float)</string>
+        <string>V.Local.fNewRmQtyLb.Declare(Float)</string>
+        <string>V.Local.fRunQty.Declare(Float)</string>
+        <string>V.Local.fRMQtyLb.Declare(Float)</string>
+        <string>V.Local.fRMQtySh.Declare(Float)</string>
+        <string>V.Local.fRMIssue.Declare(Float)</string>
+        <string>V.Local.fTotalRmQtySh.Declare(Float,0)</string>
+        <string>V.Local.fRound.Declare(Float)</string>
+        <string>V.Local.iRunTotal.Declare(Long,0)</string>
+        <string>V.Local.iC.Declare(Long)</string>
+        <string>V.Local.iTotalRows.Declare(Long)</string>
+        <string>V.Local.iUDTRow.Declare(Long)</string>
+        <string>Gui.Form2.gsgcNest.Visible(False)</string>
+        <string>'Get Work Order from screen</string>
+        <string>v.Local.sWO.Set(V.DataTable.ProNest(v.Args.Row).WO#!FieldValTrim)</string>
+        <string>'Split WO in order to get the Job and suffix</string>
+        <string>F.Intrinsic.String.Split(V.Local.sWO,"-",V.Local.sWO)</string>
+        <string>'Get the Qty_Order for the WO</string>
+        <string>F.Intrinsic.String.Build("SELECT QTY_ORDER FROM V_JOB_HEADER WHERE JOB = '{0}' AND SUFFIX = '{1}'",V.Local.sWO(0),V.Local.sWO(1),V.Local.sSQL)</string>
+        <string>F.ODBC.Connection!Conx.OpenLocalRecordsetRO("rstHead",V.Local.sSQL)</string>
+        <string>'Make sure there's a record</string>
+        <string>F.Intrinsic.Control.If(V.ODBC.Conx!rstHead.EOF,&lt;&gt;,True)</string>
+        <string>	'Get the original run quantity</string>
+        <string>	V.Local.fRunQty.Set(V.DataTable.ProNest(v.Args.Row).RunQty!FieldValFloat)</string>
+        <string>	'Set the new value in the flexgrid</string>
+        <string>	F.Data.DataTable.SetValue("ProNest", v.Args.Row, "RunQty", V.ODBC.Conx!rstHead.FieldValFloat!Qty_Order)</string>
+        <string>	'Subtract the new amount from the original</string>
+        <string>	F.Intrinsic.Math.Sub(V.DataTable.ProNest(v.Args.Row).RunQty!FieldValFloat,V.Local.fRunQty,V.Local.fReturn)</string>
+        <string>	'add this return value to the total.</string>
+        <string>	F.Intrinsic.Math.Add(V.Screen.Form2!txtTotalRunGSS.Text,V.Local.fReturn,V.Local.fReturn)</string>
+        <string>	'Set the updated value to the textbox</string>
+        <string>	Gui.Form2.txtTotalRunGSS.Text(V.Local.fReturn)</string>
+        <string>F.Intrinsic.Control.Else</string>
+        <string>	'Inform user information couldn't be found and set values to zero</string>
+        <string>	F.Intrinsic.UI.Msgbox("Could not find Work Order Information")</string>
+        <string>	F.Data.DataTable.SetValue("ProNest", v.Args.Row, "RunQty", "0")</string>
+        <string>F.Intrinsic.Control.EndIf</string>
+        <string>F.ODBC.ConX!rstHead.Close</string>
+        <string>'Get the updated RM Qty (Sh and Lb)</string>
+        <string>F.Intrinsic.String.Build("Select HOURS_ESTIMATED FROM V_JOB_OPERATIONS WHERE PART = '{0}' AND JOB = '{1}' AND SUFFIX = '{2}'",V.DataTable.ProNest(v.Args.Row).RawMaterial!FieldValTrim,V.Local.sWO(0),V.Local.sWO(1),V.Local.sSQL)</string>
+        <string>F.ODBC.Connection!Conx.OpenLocalRecordsetRO("rstOp",V.Local.sSQL)</string>
+        <string>'Make sure there's a record</string>
+        <string>F.Intrinsic.Control.If(V.ODBC.Conx!rstOp.EOF,&lt;&gt;,True)</string>
+        <string>	'Get the original Quantities in the Grid</string>
+        <string>	V.Local.fRMQtyLb.Set(V.DataTable.ProNest(v.Args.Row).RMQtyLb!FieldValFloat)</string>
+        <string>	V.Local.fRMQtySh.Set(V.DataTable.ProNest(v.Args.Row).RMQtySh!FieldValFloat)</string>
+        <string>	'Calculate the new RM Qty Lbs</string>
+        <string>	F.Intrinsic.Math.Mult(V.ODBC.Conx!rstOp.FieldValFloat!HOURS_ESTIMATED,V.Global.fConsumption,V.Local.fNewRmQtyLb)</string>
+        <string>	'Set the new values in the flexgrid</string>
+        <string>	F.Data.DataTable.SetValue("ProNest", v.Args.Row, "RMQtyLb", V.Local.fNewRmQtyLb)</string>
+        <string>	F.Data.DataTable.SetValue("ProNest", v.Args.Row, "RMQtySh", V.ODBC.Conx!rstOp.FieldValFloat!HOURS_ESTIMATED)</string>
+        <string>	F.Intrinsic.String.Format(V.DataTable.ProNest(v.Args.Row).RMQtySh!FieldValFloat,"#0.00",V.Local.sRet)</string>
+        <string>	F.Data.DataTable.SetValue("ProNest", v.Args.Row, "RMQtySh", V.Local.sRet)</string>
+        <string>	'Get the updated values for totals</string>
+        <string>	F.Intrinsic.Math.Sub(V.DataTable.ProNest(v.Args.Row).RMQtySh!FieldValFloat,V.Local.fRMQtySh,V.Local.fReturn)</string>
+        <string>	F.Intrinsic.Math.Add(V.Local.fReturn,V.Screen.Form2!txtTotal.Text,V.Local.fReturn)</string>
+        <string>	Gui.Form2.txtTotal.Text(V.Local.fReturn)</string>
+        <string>	F.Intrinsic.String.Format(V.Local.fNewRmQtyLb,"#0.00",V.Local.fNewRmQtyLb)</string>
+        <string>	F.Intrinsic.Math.Sub(V.Local.fNewRmQtyLb,V.Local.fRMQtyLb,V.Local.fReturn)</string>
+        <string>	F.Intrinsic.Math.Add(V.Local.fReturn,V.Screen.Form2!txtTotalLbsGSS.Text,V.Local.fReturn)</string>
+        <string>	Gui.Form2.txtTotalLbsGSS.Text(V.Local.fReturn)</string>
+        <string>F.Intrinsic.Control.Else</string>
+        <string>	'Inform user information couldn't be found and set values to zero</string>
+        <string>	F.Intrinsic.UI.Msgbox("Could not find Work Order Information")</string>
+        <string>	F.Data.DataTable.SetValue("ProNest", v.Args.Row, "RMQtyLb", "0")</string>
+        <string>	F.Data.DataTable.SetValue("ProNest", v.Args.Row, "RMQtySh", "0")</string>
+        <string>F.Intrinsic.Control.EndIf</string>
+        <string>F.ODBC.Conx!rstOp.Close</string>
+        <string>'Get the row count</string>
+        <string>'Loop through the grid and update the RM Issue, and the Running Total</string>
+        <string>F.Intrinsic.Control.For(V.Local.iC,0,V.DataView.ProNest!Nest.RowCount--,1)</string>
+        <string>	'Get remaining qty</string>
+        <string>	V.Local.fRMQtySh.Set(V.DataView.ProNest!Nest(V.Local.iC).RMQtySh!FieldValFloat)</string>
+        <string>	'Update the total RM Qty Sh</string>
+        <string>	F.Intrinsic.Math.Add(V.Local.fTotalRmQtySh,V.Local.fRMQtySh,V.Local.fTotalRmQtySh)</string>
+        <string>	'Round the value to set it to RM Issue</string>
+        <string>	F.Intrinsic.Math.Ceiling(V.Local.fTotalRmQtySh,V.Local.fRound)</string>
+        <string>	'Update RM Issue</string>
+        <string>	F.Data.DataView.SetValue("ProNest", "Nest",v.Local.iC, "RmIssueSh", V.Local.fRound)</string>
+        <string>	'Get the Running Total</string>
+        <string>	F.Intrinsic.Math.Sub(V.Screen.Form2!txtOnHand.Text,V.Local.fRound,V.Local.iRunTotal)</string>
+        <string>	'Set the new run total</string>
+        <string>	F.Data.DataView.SetValue("ProNest", "Nest",v.Local.iC, "RemainingOnHand", V.Local.iRunTotal)</string>
+        <string>F.Intrinsic.Control.Next(V.Local.iC)</string>
+        <string>'Set the new Remain to Issue Total Value</string>
+        <string>Gui.Form2.txtToIssue.Text(V.Local.fRound)</string>
+        <string>'Refresh to see if any errors were removed</string>
+        <string>F.Intrinsic.Control.CallSub(Cmdrefresh_click)</string>
+        <string>Gui.Form2.gsgcNest.Visible(True)</string>
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string>F.Intrinsic.Control.Label("UpdateWO_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4138_ProNest.gas",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	F.Intrinsic.Control.CallSub(Unload)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string>Program.Sub.UpdateWO.End</string>
+        <string />
+        <string>Program.Sub.Error_MismatchRaw.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("Error_MismatchRaw_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string>V.Local.sError.Declare(String)</string>
+        <string>V.Local.sSQL.Declare(String)</string>
+        <string>'For Error 2, Raw material could not be found within Global Shop Solutions</string>
+        <string>F.Intrinsic.String.Build("SELECT * FROM V_INVENTORY_MSTR WHERE PART = '{0}' AND LOCATION = '{1}'",V.DataView.ProNest!Nest(v.Args.Row).RawMaterial!FieldVal,V.Global.sLoc.Trim,V.Local.sSQL)</string>
+        <string>F.ODBC.Connection!Conx.OpenLocalRecordsetRO("rstRaw",V.Local.sSQL)</string>
+        <string>F.Intrinsic.Control.If(V.ODBC.Conx!rstRaw.EOF,=,True)</string>
+        <string>	F.Intrinsic.Control.CallSub(Adderror,"Row",V.Args.Row,"Error","2")</string>
+        <string>F.Intrinsic.Control.Else</string>
+        <string>	F.Intrinsic.Control.CallSub(Removeerror,"Row",V.Args.Row,"Error","2")</string>
+        <string>F.Intrinsic.Control.EndIf</string>
+        <string>F.ODBC.Conx!rstRaw.Close</string>
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string>F.Intrinsic.Control.Label("Error_MismatchRaw_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4138_ProNest.gas",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	F.Intrinsic.Control.CallSub(Unload)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string>Program.Sub.Error_MismatchRaw.End</string>
+        <string />
+        <string>Program.Sub.Error_MissingComp.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("Error_MissingComp_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string>V.Local.sError.Declare(String)</string>
+        <string>V.Local.sSQL.Declare(String)</string>
+        <string>'Subroutine for error 1. component part could not be found within Global Shop Solutions</string>
+        <string>F.Intrinsic.String.Build("Select PART from V_INVENTORY_MSTR where PART = '{0}' and LOCATION = '{1}'",V.Args.Part.Trim,V.Global.sLoc.Trim,V.Local.ssql)</string>
+        <string>F.ODBC.Connection!conx.OpenLocalRecordsetRO("rstComp",V.Local.sSql)</string>
+        <string>'if nothing set a 1 in the error column</string>
+        <string>F.Intrinsic.Control.If(V.ODBC.conx!rstComp.EOF,=,True)</string>
+        <string>	F.Intrinsic.Control.CallSub(Adderror,"Row",V.Args.Row,"Error","6")</string>
+        <string>F.Intrinsic.Control.Else</string>
+        <string>	F.Intrinsic.Control.CallSub(Removeerror,"Row",V.Args.Row,"Error","6")</string>
+        <string>F.intrinsic.control.EndIf</string>
+        <string>F.ODBC.Conx!rstComp.Close</string>
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string>F.Intrinsic.Control.Label("Error_MissingComp_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4138_ProNest.gas",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	F.Intrinsic.Control.CallSub(Unload)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string>Program.Sub.Error_MissingComp.End</string>
+        <string />
+        <string>Program.Sub.Error_ZeroConsump.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("Error_ZeroConsump_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string>V.Local.sError.Declare(String)</string>
+        <string>'For error seven, simply check to make sure that the consumption conversion isn't 0</string>
+        <string>F.Intrinsic.Control.If(V.Global.fConsumption,=,0)</string>
+        <string>	F.Intrinsic.Control.CallSub(Adderror,"Row",V.Args.Row,"Error","7")</string>
+        <string>F.Intrinsic.Control.Else</string>
+        <string>	F.Intrinsic.Control.CallSub(Removeerror,"Row",V.Args.Row,"Error","7")</string>
+        <string>F.Intrinsic.Control.EndIf</string>
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string>F.Intrinsic.Control.Label("Error_ZeroConsump_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4138_ProNest.gas",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	F.Intrinsic.Control.CallSub(Unload)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string>Program.Sub.Error_ZeroConsump.End</string>
+        <string />
+        <string>Program.Sub.AddError.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("AddError_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string>V.Local.sError.Declare(String)</string>
+        <string>V.Local.sErrorList.Declare(String)</string>
+        <string>V.Local.bRet.Declare(Boolean)</string>
+        <string>V.Local.iCount.Declare(Long)</string>
+        <string>'Get the error list and check to see if the error is already in the string</string>
+        <string>V.Local.sErrorList.Set(V.DataView.ProNest!Nest(V.Args.Row).Error!FieldVal)</string>
+        <string>F.Intrinsic.String.IsInString(V.Local.sErrorList,V.Args.Error,True,V.Local.bRet)</string>
+        <string>'If it isn't already in the string do nothing</string>
+        <string>F.Intrinsic.Control.If(V.Local.bRet,&lt;&gt;,True)</string>
+        <string>	'Add to the list</string>
+        <string>	F.Intrinsic.Control.If(V.Local.sErrorList,=,"")</string>
+        <string>		V.Local.sErrorList.Set(V.Args.Error)</string>
+        <string>	F.Intrinsic.Control.Else</string>
+        <string>		F.Intrinsic.String.Build("{0},{1}",V.Local.sErrorList,V.Args.Error,V.Local.sErrorList)</string>
+        <string>	F.Intrinsic.Control.EndIf</string>
+        <string>	'Split the string at the comma</string>
+        <string>	F.Intrinsic.String.Split(V.Local.sErrorList,",",V.Local.sErrorList)</string>
+        <string>	'Sort array so that it's in ascending order</string>
+        <string>	F.Intrinsic.String.SortAsc(V.Local.sErrorList,V.Local.sErrorList)</string>
+        <string>	'Recombine string</string>
+        <string>	F.Intrinsic.String.Join(V.Local.sErrorList,",",V.Local.sErrorList)</string>
+        <string>	'Now set the new list to the text matrix</string>
+        <string>	F.Data.DataView.SetValue("ProNest", "Nest", V.Args.Row, "Error", V.Local.sErrorList)</string>
+        <string>	'Add one to the number of errors</string>
+        <string>	F.Intrinsic.Math.Add(V.Global.iErrorCount,1,V.Global.iErrorCount)</string>
+        <string>F.Intrinsic.Control.EndIf</string>
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string>F.Intrinsic.Control.Label("AddError_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4138_ProNest.gas",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	F.Intrinsic.Control.CallSub(Unload)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string>Program.Sub.AddError.End</string>
+        <string />
+        <string>Program.Sub.Error_RunQtyMisMatch.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("Error_RunQtyMisMatch_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string>V.Local.sError.Declare(String)</string>
+        <string>V.Local.fPNRunQty.Declare(Float)</string>
+        <string>V.Local.fGSRunQty.Declare(Float)</string>
+        <string>V.Local.fPNRunQty.Set(V.DataView.ProNest!Nest(v.Args.Row).QtyNest!FieldValFloat)</string>
+        <string>'Get the ProNest Run Qty</string>
+        <string>'V.Local.fPNRunQty.Set(V.uGlobal.uProNest(v.Args.Row)!fQtyNest)</string>
+        <string>'Get the GS Work Order Run Qty</string>
+        <string>'V.Local.fGSRunQty.set(V.uGlobal.uProNest(v.Args.Row)!fRunQty)</string>
+        <string>V.Local.fGSRunQty.Set(V.DataView.ProNest!Nest(v.Args.Row).RunQty!FieldValFloat)</string>
+        <string>'see if the run qty exceeds the pro nest run qty</string>
+        <string>F.Intrinsic.Control.If(V.Local.fGSRunQty,&gt;,V.Local.fPNRunQty)</string>
+        <string>	F.Intrinsic.Control.CallSub(Adderror,"Row",V.Args.Row,"Error","5")</string>
+        <string>F.Intrinsic.Control.Else</string>
+        <string>	F.Intrinsic.Control.CallSub(Removeerror,"Row",V.Args.Row,"Error","5")</string>
+        <string>F.Intrinsic.Control.EndIf</string>
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string>F.Intrinsic.Control.Label("Error_RunQtyMisMatch_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4138_ProNest.gas",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	F.Intrinsic.Control.CallSub(Unload)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string>Program.Sub.Error_RunQtyMisMatch.End</string>
+        <string />
+        <string>Program.Sub.Error_TotalRunMismatch.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("Error_TotalRunMismatch_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string>V.Local.sError.Declare(String)</string>
+        <string>'For error 3, Total Run Qty ProNest does not equal Total Run Qty Global Shop Solutions</string>
+        <string>F.Intrinsic.Control.If(V.Screen.Form2!txtTotalRun.Text,&lt;&gt;,V.Screen.Form2!txtTotalRunGSS.Text)</string>
+        <string>	F.Intrinsic.Control.CallSub(Adderror,"Row",V.Args.Row,"Error","3")</string>
+        <string>F.Intrinsic.Control.Else</string>
+        <string>	F.Intrinsic.Control.CallSub(Removeerror,"Row",V.Args.Row,"Error","3")</string>
+        <string>F.Intrinsic.Control.EndIf</string>
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string>F.Intrinsic.Control.Label("Error_TotalRunMismatch_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4138_ProNest.gas",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	F.Intrinsic.Control.CallSub(Unload)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string>Program.Sub.Error_TotalRunMismatch.End</string>
+        <string />
+        <string>Program.Sub.Error_InsufficientOnhand.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("Error_InsufficientOnhand_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string>V.Local.sError.Declare(String)</string>
+        <string>'For Error 4, insufficient on hand quantity in global shop to meet pronest needs</string>
+        <string>F.Intrinsic.Control.If(V.Args.RunTotal,&lt;,0)</string>
+        <string>	F.Intrinsic.Control.CallSub(Adderror,"Row",V.Args.Row,"Error","4")</string>
+        <string>F.Intrinsic.Control.Else</string>
+        <string>	F.Intrinsic.Control.CallSub(Removeerror,"Row",V.Args.Row,"Error","4")</string>
+        <string>F.Intrinsic.Control.EndIf</string>
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string>F.Intrinsic.Control.Label("Error_InsufficientOnhand_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4138_ProNest.gas",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	F.Intrinsic.Control.CallSub(Unload)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string>Program.Sub.Error_InsufficientOnhand.End</string>
+        <string />
+        <string>Program.Sub.cmdprocess_click.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("cmdprocess_click_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string />
+        <string>V.Local.sError.Declare(String)</string>
+        <string>V.Local.iTotalRows.Declare(Long)</string>
+        <string>V.Local.sUpload.Declare(String)</string>
+        <string>V.Local.sRow.Declare(String)</string>
+        <string>V.Local.sFlexNum.Declare(String)</string>
+        <string>V.Local.sSchedIncr.Declare(String)</string>
+        <string>V.Local.sWO.Declare(String)</string>
+        <string>V.Local.sSeq.Declare(String)</string>
+        <string>V.Local.sSQL.Declare(String)</string>
+        <string>V.Local.sFile.Declare(String)</string>
+        <string>V.Local.bRet.Declare(Boolean)</string>
+        <string>V.Local.sLabJob.Declare(String)</string>
+        <string>V.Local.sLabSuf.Declare(String)</string>
+        <string>V.Local.sLabSeq.Declare(String)</string>
+        <string>V.Local.iC.Declare(Long)</string>
+        <string />
+        <string>'Update process boolean</string>
+        <string>V.Global.bProcess.Set(True)</string>
+        <string>F.Intrinsic.Control.If(V.Global.iErrorCount,&gt;,0)</string>
+        <string>	F.Intrinsic.UI.Msgbox("Errors must be cleared!","FlexSchedule Error")</string>
+        <string>	F.Intrinsic.Control.ExitSub</string>
+        <string>F.Intrinsic.Control.endIf</string>
+        <string>Gui.Form2.cmdProcess.Enabled(False)</string>
+        <string>Gui.Form2.cmdRefresh.Enabled(False)</string>
+        <string>Gui.Form2.cmdRouterMaterial.Enabled(False)</string>
+        <string>'Create a Flex Schedule</string>
+        <string>Gui.Form2..Enabled(False)</string>
+        <string>'Get the Flex Schedule Number</string>
+        <string>V.Local.sFlexNum.Set(V.Screen.Form2!txtFlexSched.Text)</string>
+        <string>F.Intrinsic.String.Split(V.Local.sFlexNum,"-",V.Local.sFlexNum)</string>
+        <string>'Redim to get at least two records in the array</string>
+        <string>V.Local.sFlexNum.RedimPreserve(0,1)</string>
+        <string>F.Intrinsic.Control.For(V.Local.iC,0,V.DataView.ProNest!Nest.RowCount--,1)</string>
+        <string>'F.Intrinsic.Control.For(V.Local.iC,0,V.uGlobal.uProNest.UBound,1)</string>
+        <string>	'Get required information for the Flex Schedule</string>
+        <string>'	V.Local.sWO.Set(V.uGlobal.uProNest(v.Local.iC)!sWorkOrder)</string>
+        <string>	V.Local.sWO.Set(V.DataView.ProNest!Nest(V.Local.iC).WO#!FieldValTrim)</string>
+        <string>	'Split work order up into Job and Suffix</string>
+        <string>	F.Intrinsic.String.Split(V.Local.sWO,"-",V.Local.sWO)</string>
+        <string>	'Query for the WO Sequence</string>
+        <string>'	F.Intrinsic.String.Build("SELECT SEQ FROM V_JOB_OPERATIONS WHERE  JOB = '{0}' AND SUFFIX = '{1}' AND LMO = 'M' and Part = '{2}'",V.Local.sWO(0),V.Local.sWO(1),V.uGlobal.uProNest(v.Local.iC)!sRawMat,V.Local.sSQL)</string>
+        <string>	F.Intrinsic.String.Build("SELECT SEQ FROM V_JOB_OPERATIONS WHERE  JOB = '{0}' AND SUFFIX = '{1}' AND LMO = 'M' and Part = '{2}'",V.Local.sWO(0),V.Local.sWO(1),V.DataView.ProNest!Nest(V.Local.iC).RawMaterial!FieldValTrim,V.Local.sSQL)</string>
+        <string>	F.ODBC.Connection!Conx.OpenLocalRecordsetRO("rstSeq",V.Local.sSQL)</string>
+        <string>	'Check to make sure a record was returned</string>
+        <string>	F.Intrinsic.Control.If(V.ODBC.Conx!rstSeq.EOF,&lt;&gt;,True)</string>
+        <string>		V.Local.sSeq.Set(V.ODBC.Conx!rstSeq.FieldValTrim!SEQ)</string>
+        <string>'		V.uGlobal.uProNest(v.Local.iC)!sWOSeq.Set(V.Local.sSeq)</string>
+        <string>		F.Data.DataView.SetValue("ProNest", "Nest",v.Local.iC, "WOSeq", V.Local.sSeq)</string>
+        <string>	F.Intrinsic.Control.EndIf</string>
+        <string>	'Close Recordset</string>
+        <string>	F.ODBC.Conx!rstSeq.Close</string>
+        <string>	'Query for the next Labor Sequence</string>
+        <string>	F.Intrinsic.String.Build("SELECT JOB,SUFFIX,SEQ FROM V_JOB_OPERATIONS WHERE JOB = '{0}' AND SUFFIX = '{1}' AND SEQ &gt; '{2}' AND LMO = 'L' ORDER BY SEQ ASC",V.Local.sWO(0),V.Local.sWO(1),V.Local.sSeq,V.Local.sSQL)</string>
+        <string>	F.ODBC.Connection!Conx.OpenLocalRecordsetRO("rstLab",V.Local.sSQL)</string>
+        <string>	'Check to make sure we've got a record, first record should be the next Labor sequence in the WO</string>
+        <string>	F.Intrinsic.Control.If(V.ODBC.Conx!rstLab.EOF,&lt;&gt;,True)</string>
+        <string>		V.Local.sLabJob.Set(V.ODBC.Conx!rstLab.FieldValTrim!Job)</string>
+        <string>		V.Local.sLabSuf.Set(V.ODBC.Conx!rstLab.FieldValTrim!Suffix)</string>
+        <string>		V.Local.sLabSeq.Set(V.ODBC.Conx!rstLab.FieldValTrim!SEQ)</string>
+        <string>	F.Intrinsic.Control.EndIf</string>
+        <string>	F.ODBC.Conx!rstLab.Close</string>
+        <string>	'Format the required fields</string>
+        <string>	F.Intrinsic.String.LPad(V.Local.sFlexNum(0)," ",6,V.Local.sFlexNum(0))</string>
+        <string>	F.Intrinsic.String.LPad(V.Local.sFlexNum(1)," ",3,V.Local.sFlexNum(1))</string>
+        <string>	F.Intrinsic.String.LPad(V.Local.iC,"0",6,V.Local.sSchedIncr)</string>
+        <string>	F.Intrinsic.String.RPad(V.Local.sWO(0)," ",6,V.Local.sWO(0))</string>
+        <string>	F.Intrinsic.String.RPad(V.Local.sWO(1)," ",3,V.Local.sWO(1))</string>
+        <string>	F.Intrinsic.String.RPad(V.Local.sSeq," ",6,V.Local.sSeq)</string>
+        <string>	F.Intrinsic.String.RPad(V.Local.sLabJob," ",6,V.Local.sLabJob)</string>
+        <string>	F.Intrinsic.String.RPad(V.Local.sLabSuf," ",3,V.Local.sLabSuf)</string>
+        <string>	F.Intrinsic.String.RPad(V.Local.sLabSeq," ",6,V.Local.sLabSeq)</string>
+        <string>	'Begin building upload record</string>
+        <string>	F.Intrinsic.String.Build("{0}{1}{2}{3}{4}{5}",V.Local.sFlexNum(0),V.Local.sFlexNum(1),V.Local.sSchedIncr,V.Local.sWO(0),V.Local.sWO(1),V.Local.sSeq,V.Local.sRow)</string>
+        <string>	'Pad the row to 35 characters to enter in Labor information</string>
+        <string>	F.Intrinsic.String.RPad(V.Local.sRow," ",35,V.Local.sRow)</string>
+        <string>	'Add Labor WO info</string>
+        <string>	F.Intrinsic.String.Build("{0}{1}{2}{3}",V.Local.sRow,V.Local.sLabJob,V.Local.sLabSuf,V.Local.sLabSeq,V.Local.sRow)</string>
+        <string>	'Pad the remaining fields</string>
+        <string>	F.Intrinsic.String.RPad(V.Local.sRow," ",128,V.Local.sRow)</string>
+        <string>	'Add to File String</string>
+        <string>	F.Intrinsic.Control.If(V.Local.sUpload.Trim,=,"")</string>
+        <string>		V.Local.sUpload.Set(V.Local.sRow)</string>
+        <string>	F.Intrinsic.Control.Else</string>
+        <string>		F.Intrinsic.String.Build("{0}{1}{2}",V.Local.sUpload,V.Ambient.NewLine,V.Local.sRow,V.Local.sUpload)</string>
+        <string>	F.Intrinsic.Control.EndIf</string>
+        <string>F.Intrinsic.Control.Next(V.Local.iC)</string>
+        <string>'Build the filepath string</string>
+        <string>F.Intrinsic.String.Build("{0}\SCHED.TXT",V.Caller.FilesDir,V.Local.sFile)</string>
+        <string>'Create File</string>
+        <string>F.Intrinsic.File.String2File(V.Local.sFile,V.Local.sUpload)</string>
+        <string>'Call 1Shot</string>
+        <string>F.Global.General.CallWrapperSync(50,"UPLSCHED/A")</string>
+        <string>F.Intrinsic.Control.CallSub(Pronest_check)</string>
+        <string>F.Intrinsic.Control.If(V.Args.DNE,&lt;&gt;,True)</string>
+        <string>	Gui.Form2.cmdIssueMat.Enabled(True)</string>
+        <string>	Gui.Form2.cmdReverse.Enabled(True)</string>
+        <string>F.Intrinsic.Control.Else</string>
+        <string>	Gui.Form2.cmdProcess.Enabled(True)</string>
+        <string>	Gui.Form2.cmdRouterMaterial.Enabled(True)</string>
+        <string>F.Intrinsic.Control.EndIf</string>
+        <string>Gui.Form2..Enabled(True)</string>
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string>F.Intrinsic.Control.Label("cmdprocess_click_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4138_ProNest.gas",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	F.Intrinsic.Control.CallSub(Unload)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string />
+        <string>Program.Sub.cmdprocess_click.End</string>
+        <string />
+        <string>Program.Sub.Error_CompOnJob.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("Error_CompOnJob_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string>V.Local.sError.Declare(String)</string>
+        <string>V.Local.sSQL.Declare(String)</string>
+        <string>'validation checks - check component</string>
+        <string>F.intrinsic.string.Build("Select ROUTER from JOB_OPERATIONS where ROUTER = '{0}'",V.Args.Part,V.Local.ssql)</string>
+        <string>F.ODBC.Connection!conx.OpenLocalRecordsetRO("rst",V.Local.ssql)</string>
+        <string>'F.Intrinsic.Control.If(V.ODBC.Conx!rst.EOF,=,"")</string>
+        <string>F.Intrinsic.Control.If(V.ODBC.Conx!rst.EOF,=,True)</string>
+        <string>	F.Intrinsic.Control.CallSub(Adderror,"Row",V.Args.Row,"Error","1")</string>
+        <string>F.Intrinsic.Control.Else</string>
+        <string>	F.Intrinsic.Control.CallSub(Removeerror,"Row",V.Args.Row,"Error","1")</string>
+        <string>F.Intrinsic.Control.EndIf</string>
+        <string>F.ODBC.Conx!rst.Close</string>
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string>F.Intrinsic.Control.Label("Error_CompOnJob_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4138_ProNest.gas",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	F.Intrinsic.Control.CallSub(Unload)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string>Program.Sub.Error_CompOnJob.End</string>
+        <string />
+        <string>Program.Sub.RemoveError.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("RemoveError_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string>V.Local.sError.Declare(String)</string>
+        <string>V.Local.sErrorList.Declare(String)</string>
+        <string>V.Local.bRet.Declare(Boolean)</string>
+        <string>V.Local.iCount.Declare(Long)</string>
+        <string>'Get the error list and check to see if the error is already in the string</string>
+        <string>'V.Local.sErrorList.Set(V.uGlobal.uProNest(v.Args.Row)!sError)</string>
+        <string>V.Local.sErrorList.Set(V.DataView.ProNest!Nest(v.Args.Row).Error!FieldValTrim)</string>
+        <string>F.Intrinsic.String.Build("{0},", v.Local.sErrorList, v.Local.sErrorList)</string>
+        <string>F.Intrinsic.String.IsInString(V.Local.sErrorList,V.Args.Error,True,V.Local.bRet)</string>
+        <string>'If it isn't already in the string do nothing</string>
+        <string>F.Intrinsic.Control.If(V.Local.bRet,=,True)</string>
+        <string>	'Load String into UDT to remove the error</string>
+        <string>	F.Data.DataTable.CreateFromString("Error", v.Local.sErrorList, "Errors","String", "*!*", ",")</string>
+        <string>	F.Data.Dictionary.CreateFromDataTable("DicError", "Error", "Errors", "Errors", 4)</string>
+        <string>	F.Data.Dictionary.ReturnAllPairs("DicError", v.Local.sErrorList)</string>
+        <string>	F.Intrinsic.String.Split(v.Local.sErrorList, "!*!", v.Local.sErrorList)</string>
+        <string>	F.Intrinsic.String.Replace(v.Local.sErrorList, "*", "", v.Local.sErrorList)</string>
+        <string>	'Split the string at the comma</string>
+        <string>	F.Intrinsic.String.Split(V.Local.sErrorList,"!",V.Local.sErrorList)</string>
+        <string>	'Sort array so that it's in ascending order</string>
+        <string>	F.Intrinsic.String.SortAsc(V.Local.sErrorList,V.Local.sErrorList)</string>
+        <string>	'Recombine string</string>
+        <string>	F.Intrinsic.String.Join(V.Local.sErrorList,",",V.Local.sErrorList)</string>
+        <string>	'Now set the new list to the text matrix</string>
+        <string>	F.Data.DataView.SetValue("ProNest", "Nest", V.Args.Row, "Error", V.Local.sErrorList)</string>
+        <string>	'Add one to the number of errors</string>
+        <string>	F.Intrinsic.Math.Sub(V.Global.iErrorCount,1,V.Global.iErrorCount)</string>
+        <string>F.Intrinsic.Control.EndIf</string>
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string>F.Intrinsic.Control.Label("RemoveError_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4138_ProNest.gas",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	F.Intrinsic.Control.CallSub(Unload)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string>Program.Sub.RemoveError.End</string>
+        <string />
+        <string>Program.Sub.ProNest_Check.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("ProNest_Check_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string>V.Local.sError.Declare(String)</string>
+        <string>V.Local.sFlexNum.Declare(String)</string>
+        <string>V.Local.sProNestNum.Declare(String)</string>
+        <string>V.Local.sSql.Declare(String)</string>
+        <string>V.Local.sRet.Declare(String)</string>
+        <string>v.Local.sCustom.Declare(String)</string>
+        <string>v.Local.sSuffix.Declare(String)</string>
+        <string>V.Local.bRet.Declare(Boolean)</string>
+        <string>V.Local.bDNE.Declare(Boolean,False)</string>
+        <string>V.Local.sFlexNum.Set(V.DataView.ProNest!Nest(0).JobNumber!FieldValTrim)</string>
+        <string>'ChecktoseeiftheFlexnumberhas</string>
+        <string>F.Intrinsic.String.IsInString(V.Local.sFlexNum,"-",False,V.Local.bRet)</string>
+        <string>F.Intrinsic.Control.If(V.Local.bRet,=,True)</string>
+        <string>	'Split to get the Flex Number and Flex Sequence</string>
+        <string>	F.Intrinsic.String.Split(V.Local.sFlexNum,"-",V.Local.sFlexNum)</string>
+        <string>F.Intrinsic.Control.ElseIf(V.Local.sFlexNum.Length,&gt;,6)</string>
+        <string>	'Use limit split to get the first six and last three</string>
+        <string>	F.Intrinsic.String.LimitSplit(V.Local.sFlexNum,6,V.Local.sFlexNum)</string>
+        <string>F.Intrinsic.Control.EndIf</string>
+        <string>'Redim to get at least two records in the array</string>
+        <string>V.Local.sFlexNum.RedimPreserve(0,1)</string>
+        <string>F.Intrinsic.String.Left(v.Local.sFlexNum(0), 1, v.Local.sCustom)</string>
+        <string>F.Intrinsic.String.LPad(v.Local.sFlexNum(0), "0", 6, v.Local.sFlexNum(0))</string>
+        <string>F.Intrinsic.Control.If(v.Local.sCustom.UCase, =, "C")</string>
+        <string>	F.Intrinsic.Control.If(V.Local.sFlexNum(0).Length,&gt;,6,"AND",V.Local.sFlexNum(1).Length,&gt;,3)</string>
+        <string>		F.Intrinsic.UI.Msgbox("ProNest Number is too large. Must be maximum of 6 characters.")</string>
+        <string>		F.Intrinsic.Control.CallSub(Form2_unload)</string>
+        <string>	F.Intrinsic.Control.EndIf</string>
+        <string>	F.Intrinsic.String.LPad(V.Local.sFlexNum(0),"0",6,V.Local.sFlexNum(0))</string>
+        <string>	F.Intrinsic.String.RPad(V.Local.sFlexNum(1)," ",3,V.Local.sFlexNum(1))</string>
+        <string>	F.Intrinsic.String.Build("{0}-{1}",V.Local.sFlexNum(0),V.Local.sFlexNum(1),V.Local.sProNestNum)</string>
+        <string>	F.Intrinsic.String.Build("Select IssueMatFlag from GCG_4138_ProNest where ProNest_Num = '{0}'",V.Local.sProNestNum,V.Local.sSql)</string>
+        <string>'	F.Intrinsic.String.Build("Select IssueMatFlag from GCG_4138_ProNest where ProNest_Num = '{0}'",V.uGlobal.uProNest(0)!sJobName,V.Local.sSql)</string>
+        <string>	F.ODBC.Connection!Conx.OpenLocalRecordsetRO("rstIssue",V.Local.sSql)</string>
+        <string>	F.Intrinsic.Control.If(V.ODBC.Conx!rstIssue.EOF,=,False)</string>
+        <string>		F.Intrinsic.Control.If(V.ODBC.Conx!rstIssue.FieldValTrim!IssueMatFlag,=,"N")</string>
+        <string>			F.Intrinsic.UI.Msgbox("FlexSchedule Created!  Use Shop Floor Control &gt; Transaction &gt; Issue Material to Schedule")</string>
+        <string>			F.Intrinsic.Control.CallSub(Form2_unload)</string>
+        <string>		F.Intrinsic.Control.EndIf</string>
+        <string>	F.Intrinsic.Control.EndIf</string>
+        <string>	F.ODBC.Conx!rstIssue.Close</string>
+        <string>	'check to see if the number has been used before</string>
+        <string>	F.Intrinsic.String.Build("Select * From Job_CT_FLX_Schd where Schedule = '{0}' and Schedule_Suffix = '{1}'",V.Local.sFlexNum(0),V.Local.sFlexNum(1),V.Local.sSql)</string>
+        <string>	F.ODBC.Connection!Conx.ExecuteAndReturn(V.Local.sSql,V.Local.sRet)</string>
+        <string>	F.Intrinsic.Control.If(V.Local.sRet,!=,"","AND",V.Global.bValidate,=,False)</string>
+        <string>		F.Intrinsic.UI.Msgbox("ProNest Number is already tied to a FlexSchedule!")</string>
+        <string>		F.Intrinsic.Control.CallSub(Form2_unload)</string>
+        <string>	'Check to see if the pronest number exists after the process button has been clicked. If it hasn't then they cannot move forward with issuing materials</string>
+        <string>	F.Intrinsic.Control.ElseIf(V.Local.sRet,=,"","AND",V.Global.bValidate,=,True)</string>
+        <string>		V.Local.bDNE.Set(True)</string>
+        <string>	F.Intrinsic.Control.EndIf</string>
+        <string>F.Intrinsic.Control.Else</string>
+        <string>	'get the largest suffix</string>
+        <string>	F.Intrinsic.String.Build("Select Top 1 Schedule_Suffix From Job_CT_FLX_Schd where Schedule = '{0}' Order by Schedule, Schedule_Suffix desc",V.Local.sFlexNum(0),V.Local.sSql)</string>
+        <string>	F.ODBC.Connection!Conx.OpenLocalRecordsetRO("rstFlex", v.Local.sSql)</string>
+        <string>	F.Intrinsic.Control.If(v.ODBC.Conx!rstFlex.EOF, =, False)</string>
+        <string>		'add 1</string>
+        <string>		f.Intrinsic.Math.Add(v.ODBC.Conx!rstFlex.FieldVal!Schedule_Suffix, 1, v.Local.sSuffix)</string>
+        <string>		F.Intrinsic.String.LPad(v.Local.sSuffix, "0",3,v.Local.sFlexNum(1))</string>
+        <string>		'check if it is 999</string>
+        <string>		F.Intrinsic.Control.If(v.Local.sFlexNum(1), =, "999")</string>
+        <string>			F.Intrinsic.UI.Msgbox("Suffix 999 reached!  Purge to History.", "Purge to History")</string>
+        <string>		F.Intrinsic.Control.EndIf	</string>
+        <string>	F.Intrinsic.Control.Else</string>
+        <string>		'Not found so use 000</string>
+        <string>		v.Local.sFlexNum(1).Set("000")</string>
+        <string>	F.Intrinsic.Control.EndIf</string>
+        <string>	F.Intrinsic.String.Build("{0}-{1}",V.Local.sFlexNum(0),V.Local.sFlexNum(1),V.Local.sProNestNum)</string>
+        <string>	f.ODBC.Conx!rstFlex.Close</string>
+        <string>F.Intrinsic.Control.EndIf</string>
+        <string>'Add return variable that notifies whether the schedule has been created or not</string>
+        <string>F.Intrinsic.Variable.AddRV("DNE",V.Local.bDNE)</string>
+        <string>Gui.Form2.txtNestingNo.Text(V.Local.sProNestNum)</string>
+        <string>Gui.Form2.txtFlexSched.Text(V.Local.sProNestNum)</string>
+        <string>'F.Intrinsic.Variable.UDTSetMemberValue(V.uGlobal.uProNest!sJobName,V.Local.sProNestNum)</string>
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string>F.Intrinsic.Control.Label("ProNest_Check_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4138_ProNest.gas",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	F.Intrinsic.Control.CallSub(Form2_unload)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string>Program.Sub.ProNest_Check.End</string>
+        <string />
+        <string>Program.Sub.txtrawmaterial_click.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("txtrawmaterial_click_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string>V.Local.sError.Declare(String)</string>
+        <string>Gui.Form2.txtRawMaterial.Enabled(False)</string>
+        <string>F.Intrinsic.Control.If(V.Global.iSupplyDemand,!=,-1)</string>
+        <string>	Gui.Form2.gsfgProNest.GSGOverrideProperty(1,V.Global.iSupplyDemand,"BackColor",V.Color.White)</string>
+        <string>	V.Global.iSupplyDemand.Set(-1)</string>
+        <string>F.Intrinsic.Control.EndIf</string>
+        <string>Gui.Form2.txtRawMaterial.BackColor(V.Color.SEC-GSS-01)</string>
+        <string>Gui.Form2.txtRawMaterial.Enabled(True)</string>
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string>F.Intrinsic.Control.Label("txtrawmaterial_click_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4138_ProNest.gas",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	F.Intrinsic.Control.CallSub(Form2_unload)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string>Program.Sub.txtrawmaterial_click.End</string>
+        <string />
+        <string>Program.Sub.Error_WONotFound.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("Error_WONotFound_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string>V.Local.sError.Declare(String)</string>
+        <string>'If No work order was found add error, otherwise remove error if it exists</string>
+        <string>F.Intrinsic.Control.If(V.Args.Found,&lt;&gt;,True)</string>
+        <string>	F.Intrinsic.Control.CallSub(Adderror,"Row",V.Args.Row,"Error","8")</string>
+        <string>F.Intrinsic.Control.Else</string>
+        <string>	F.Intrinsic.Control.CallSub(Removeerror,"Row",V.Args.Row,"Error","8")</string>
+        <string>F.Intrinsic.Control.EndIf</string>
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string>F.Intrinsic.Control.Label("Error_WONotFound_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4138_ProNest.gas",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	F.Intrinsic.Control.CallSub(Unload)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string>Program.Sub.Error_WONotFound.End</string>
+        <string />
+        <string>Program.Sub.cmdRouterMaterial_Click.Start</string>
+        <string>v.Local.sSql.Declare(String)</string>
+        <string>v.Local.sRouter.Declare(String)</string>
+        <string>v.Local.sJob.Declare(String)</string>
+        <string>v.Local.sDescription.Declare(String)</string>
+        <string>v.Local.iCount.Declare(Long)</string>
+        <string>v.Local.iInnerCount.Declare(Long)</string>
+        <string>F.Intrinsic.Control.For(V.Local.iCount,0,V.DataView.ProNest!Nest.RowCount--,1)</string>
+        <string>	'get job number</string>
+        <string>	v.Local.sJob.Set(v.DataView.ProNest!Nest(V.Local.iCount).WO#!FieldValTrim)</string>
+        <string>	F.Intrinsic.String.Split(v.Local.sJob, "-", v.Local.sJob)</string>
+        <string>	v.Local.sJob.RedimPreserve(0,1)</string>
+        <string>	'Get the Router on the work order</string>
+        <string>	F.Intrinsic.String.Build("Select Router from Job_Header where Job = '{0}' and Suffix = '{1}'", v.Local.sJob(0), v.Local.sJob(1), v.Local.sSql)</string>
+        <string>	F.ODBC.Connection!Conx.ExecuteAndReturn(v.Local.sSql, v.Local.sRouter)</string>
+        <string>	F.Intrinsic.String.Split(v.Local.sRouter, "#$#", v.Local.sRouter)</string>
+        <string>	F.Intrinsic.String.RPad(v.Local.sRouter, " ", 20, v.Local.sRouter)</string>
+        <string>	v.Local.sRouter.RedimPreserve(0,1)</string>
+        <string>	F.Intrinsic.String.Left(v.Local.sRouter, 17, v.Local.sRouter(0))</string>
+        <string>	F.Intrinsic.String.Right(v.Local.sRouter, 3, v.Local.sRouter(1))</string>
+        <string>	'get the Material lines from the router</string>
+        <string>	F.Intrinsic.String.Build("select Part_WC_OutSide, Line_Router from Router_Line where Router = '{0}' and Router_Suffix = '{1}' and LMO = 'M' and Router_Type = 'L' order by Line_Router asc", v.Local.sRouter(0), v.Local.sRouter(1), v.Local.sSql)</string>
+        <string>	F.ODBC.Connection!Conx.OpenLocalRecordsetRO("rstRouter",v.Local.sSql)</string>
+        <string>	F.Intrinsic.Control.DoUntil(v.ODBC.Conx!rstRouter.EOF, =, True)</string>
+        <string>		'Get the Part Description</string>
+        <string>		F.Intrinsic.String.Build("Select Description from Inventory_Mstr where Part = '{0}'", V.ODBC.Conx!rstRouter.FieldValTrim!Part_WC_OutSide, v.Local.sSql)</string>
+        <string>		F.ODBC.Connection!Conx.ExecuteAndReturn(v.Local.sSql, v.Local.sDescription)</string>
+        <string>		F.Intrinsic.String.Split(v.Local.sDescription, "#$#", v.Local.sDescription)</string>
+        <string>		'update the Part information</string>
+        <string>		F.Intrinsic.String.Build("Update Job_Operations Set Part = '{3}', Description = '{4}' where Job = '{0}' and suffix = '{1}' and Router_Seq = '{2}'", v.Local.sJob(0), v.Local.sJob(1), v.ODBC.Conx!rstRouter.FieldValTrim!Line_Router,V.ODBC.Conx!rstRouter.FieldValTrim!Part_WC_Outside,v.Local.sDescription,v.Local.sSql)</string>
+        <string>		F.ODBC.Connection!Conx.Execute(v.Local.sSql)</string>
+        <string>		F.ODBC.Conx!rstRouter.MoveNext</string>
+        <string>	F.Intrinsic.Control.Loop</string>
+        <string>	F.ODBC.Conx!rstRouter.Close</string>
+        <string>F.Intrinsic.Control.Next(v.Local.iCount)</string>
+        <string>Gui.Form2.cmdProcess.Enabled(False)</string>
+        <string>Gui.Form2.cmdUpMaterial.Enabled(True)</string>
+        <string>Gui.Form2.cmdRouterMaterial.Enabled(False)</string>
+        <string>Program.Sub.cmdRouterMaterial_Click.End</string>
+        <string />
+        <string>Program.Sub.cmdUpMaterial_Click.Start</string>
+        <string>v.Local.sSql.Declare(String)</string>
+        <string>v.Local.iCount.Declare(String)</string>
+        <string>v.Local.sJob.Declare(String)</string>
+        <string>v.Local.sDescription.Declare(String)</string>
+        <string>v.Local.sPart.Declare(String)</string>
+        <string>v.Local.iLength.Declare(Long)</string>
+        <string>F.Intrinsic.String.Split("4,4,4,4,4", ",", v.Local.iLength)</string>
+        <string>f.Intrinsic.String.LimitSplit(v.DataView.ProNest!Nest(0).RawMaterial!FieldValTrim,v.Local.iLength, True,v.Local.sPart) </string>
+        <string>v.Local.sPart.RedimPreserve(0, 4)</string>
+        <string>F.Intrinsic.String.Build("Select Description from Inventory_Mstr where Part = '{0}'", v.DataView.ProNest!Nest(0).RawMaterial!FieldValTrim, v.Local.sSql)</string>
+        <string>F.ODBC.Connection!Conx.ExecuteAndReturn(v.Local.sSql, v.Local.sDescription)</string>
+        <string>F.Intrinsic.String.Split(v.Local.sDescription, "#$#", v.Local.sDescription)</string>
+        <string>'update material seq to nest material</string>
+        <string>F.Intrinsic.Control.For(V.Local.iCount,0,V.DataView.ProNest!Nest.RowCount--,1)</string>
+        <string>	v.Local.sJob.Set(v.DataView.ProNest!Nest(V.Local.iCount).WO#!FieldValTrim)</string>
+        <string>	F.Intrinsic.String.Split(v.Local.sJob, "-", v.Local.sJob)</string>
+        <string>	v.Local.sJob.RedimPreserve(0,1)</string>
+        <string>	F.Intrinsic.String.Build("Update Job_Operations Set Description = '{2}', Part = '{3}' where Job = '{0}' and Suffix = '{1}' and Seq &lt; '900000'	and LMO = 'M'", v.Local.sJob(0), v.Local.sJob(1), v.Local.sDescription,v.DataView.ProNest!Nest(0).RawMaterial!FieldValTrim , v.Local.sSql)</string>
+        <string>	F.ODBC.Connection!Conx.Execute(v.Local.sSql)</string>
+        <string>F.Intrinsic.Control.Next(v.Local.iCount)</string>
+        <string>Gui.Form2.cmdProcess.Enabled(True)</string>
+        <string>gui.Form2.cmdRouterMaterial.Enabled(True)</string>
+        <string>Gui.Form2.cmdUpMaterial.Enabled(False)</string>
+        <string>Program.Sub.cmdUpMaterial_Click.End</string>
+        <string />
+        <string>Program.Sub.Comments.Start</string>
+        <string>${$0$}$$}$$}$12:00:00 AM$}$False</string>
+        <string>Program.Sub.Comments.End</string>
+      </Lines>
+    </TextStrings>
+  </TextSource>
+  <Scrolling>
+    <WindowOriginY>1071</WindowOriginY>
+    <Options>None</Options>
+  </Scrolling>
+  <Outlining>
+    <AllowOutlining>true</AllowOutlining>
+    <ImageSize>8</ImageSize>
+    <Ranges>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>0</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>312</Y>
+        </EndPoint>
+        <Text>Program.Sub.ScreenSU</Text>
+        <DisplayText>Program.Sub.ScreenSU</DisplayText>
+        <Visible>false</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>314</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>326</Y>
+        </EndPoint>
+        <Text>Program.Sub.Preflight</Text>
+        <DisplayText>Program.Sub.Preflight</DisplayText>
+        <Visible>false</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>328</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>352</Y>
+        </EndPoint>
+        <Text>Program.Sub.Main</Text>
+        <DisplayText>Program.Sub.Main</DisplayText>
+        <Visible>false</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>354</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>371</Y>
+        </EndPoint>
+        <Text>Program.Sub.Unload</Text>
+        <DisplayText>Program.Sub.Unload</DisplayText>
+        <Visible>false</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>373</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>462</Y>
+        </EndPoint>
+        <Text>Program.Sub.CompanyOptionCheck</Text>
+        <DisplayText>Program.Sub.CompanyOptionCheck</DisplayText>
+        <Visible>false</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>464</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>495</Y>
+        </EndPoint>
+        <Text>Program.Sub.cmdfilebrowse_click</Text>
+        <DisplayText>Program.Sub.cmdfilebrowse_click</DisplayText>
+        <Visible>false</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>497</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>605</Y>
+        </EndPoint>
+        <Text>Program.Sub.cmdLoad_click</Text>
+        <DisplayText>Program.Sub.cmdLoad_click</DisplayText>
+        <Visible>false</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>607</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>622</Y>
+        </EndPoint>
+        <Text>Program.Sub.form2_unload</Text>
+        <DisplayText>Program.Sub.form2_unload</DisplayText>
+        <Visible>false</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>624</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>680</Y>
+        </EndPoint>
+        <Text>Program.Sub.Buildstyle</Text>
+        <DisplayText>Program.Sub.Buildstyle</DisplayText>
+        <Visible>false</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>682</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>709</Y>
+        </EndPoint>
+        <Text>Program.Sub.cmdsupplyanddemand_click</Text>
+        <DisplayText>Program.Sub.cmdsupplyanddemand_click</DisplayText>
+        <Visible>false</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>711</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>809</Y>
+        </EndPoint>
+        <Text>Program.Sub.cmdissuemat_click</Text>
+        <DisplayText>Program.Sub.cmdissuemat_click</DisplayText>
+        <Visible>false</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>811</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>842</Y>
+        </EndPoint>
+        <Text>Program.Sub.cmdexport_click</Text>
+        <DisplayText>Program.Sub.cmdexport_click</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>844</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>870</Y>
+        </EndPoint>
+        <Text>Program.Sub.cmdreverse_click</Text>
+        <DisplayText>Program.Sub.cmdreverse_click</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>872</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>976</Y>
+        </EndPoint>
+        <Text>Program.Sub.cmdreverseissue_click</Text>
+        <DisplayText>Program.Sub.cmdreverseissue_click</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>978</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>1125</Y>
+        </EndPoint>
+        <Text>Program.Sub.cmdvalidate_click</Text>
+        <DisplayText>Program.Sub.cmdvalidate_click</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>1127</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>1182</Y>
+        </EndPoint>
+        <Text>Program.Sub.cmdrefresh_click</Text>
+        <DisplayText>Program.Sub.cmdrefresh_click</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>1184</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>1268</Y>
+        </EndPoint>
+        <Text>Program.Sub.gsfgpronest_commandclick</Text>
+        <DisplayText>Program.Sub.gsfgpronest_commandclick</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>1270</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>1373</Y>
+        </EndPoint>
+        <Text>Program.Sub.UpdateWO</Text>
+        <DisplayText>Program.Sub.UpdateWO</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>1375</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>1396</Y>
+        </EndPoint>
+        <Text>Program.Sub.Error_MismatchRaw</Text>
+        <DisplayText>Program.Sub.Error_MismatchRaw</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>1398</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>1420</Y>
+        </EndPoint>
+        <Text>Program.Sub.Error_MissingComp</Text>
+        <DisplayText>Program.Sub.Error_MissingComp</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>1422</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>1439</Y>
+        </EndPoint>
+        <Text>Program.Sub.Error_ZeroConsump</Text>
+        <DisplayText>Program.Sub.Error_ZeroConsump</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>1441</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>1477</Y>
+        </EndPoint>
+        <Text>Program.Sub.AddError</Text>
+        <DisplayText>Program.Sub.AddError</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>1479</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>1504</Y>
+        </EndPoint>
+        <Text>Program.Sub.Error_RunQtyMisMatch</Text>
+        <DisplayText>Program.Sub.Error_RunQtyMisMatch</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>1506</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>1523</Y>
+        </EndPoint>
+        <Text>Program.Sub.Error_TotalRunMismatch</Text>
+        <DisplayText>Program.Sub.Error_TotalRunMismatch</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>1525</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>1542</Y>
+        </EndPoint>
+        <Text>Program.Sub.Error_InsufficientOnhand</Text>
+        <DisplayText>Program.Sub.Error_InsufficientOnhand</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>1544</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>1657</Y>
+        </EndPoint>
+        <Text>Program.Sub.cmdprocess_click</Text>
+        <DisplayText>Program.Sub.cmdprocess_click</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>1659</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>1681</Y>
+        </EndPoint>
+        <Text>Program.Sub.Error_CompOnJob</Text>
+        <DisplayText>Program.Sub.Error_CompOnJob</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>1683</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>1721</Y>
+        </EndPoint>
+        <Text>Program.Sub.RemoveError</Text>
+        <DisplayText>Program.Sub.RemoveError</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>1723</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>1808</Y>
+        </EndPoint>
+        <Text>Program.Sub.ProNest_Check</Text>
+        <DisplayText>Program.Sub.ProNest_Check</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>1810</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>1828</Y>
+        </EndPoint>
+        <Text>Program.Sub.txtrawmaterial_click</Text>
+        <DisplayText>Program.Sub.txtrawmaterial_click</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>1830</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>1847</Y>
+        </EndPoint>
+        <Text>Program.Sub.Error_WONotFound</Text>
+        <DisplayText>Program.Sub.Error_WONotFound</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>1849</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>1887</Y>
+        </EndPoint>
+        <Text>Program.Sub.cmdRouterMaterial_Click</Text>
+        <DisplayText>Program.Sub.cmdRouterMaterial_Click</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>1889</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>1913</Y>
+        </EndPoint>
+        <Text>Program.Sub.cmdUpMaterial_Click</Text>
+        <DisplayText>Program.Sub.cmdUpMaterial_Click</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>1915</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>1917</Y>
+        </EndPoint>
+        <Text>Program.Sub.Comments</Text>
+        <DisplayText>Program.Sub.Comments</DisplayText>
+        <Visible>false</Visible>
+        <Level>0</Level>
+      </Range>
+    </Ranges>
+  </Outlining>
+  <HyperText />
+  <Spelling />
+  <Braces />
+</SyntaxEdit>
